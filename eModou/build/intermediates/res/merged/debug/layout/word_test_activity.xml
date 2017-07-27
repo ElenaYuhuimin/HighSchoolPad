@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+    <LinearLayout 
+        android:id="@+id/word_test_activity_buttonLl"
+        android:layout_height="fill_parent"
+        android:layout_width="150dp" 
+        android:background="@drawable/word_learn_rightbtnbcg_selector"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_activity_restudyRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_test_activity_restudyImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_test_activity_restudy_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_learn_activity_restudyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_test_restudyTv"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_test_activity_restudyImv"
+                android:layout_alignRight="@id/word_test_activity_restudyImv"
+                android:layout_below="@id/word_test_activity_restudyImv"
+                android:layout_marginTop="20dp"/>
+            
+            <View 
+	            android:layout_height="2dp"
+	            android:layout_width="fill_parent"
+	            android:background="@color/courselist_class_divider"
+	            android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_activity_nextRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_test_activity_nextImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_test_activity_next_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_test_activity_nextTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_test_nextTv"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_test_activity_nextImv"
+                android:layout_alignRight="@id/word_test_activity_nextImv"
+                android:layout_below="@id/word_test_activity_nextImv"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>      
+    </LinearLayout>
+    
+    
+    <View 
+        android:id="@+id/word_test_activity_line"
+        android:layout_height="fill_parent"
+        android:layout_width="2dp" 
+        android:background="@color/courselist_class_divider"
+        android:layout_toLeftOf="@id/word_test_activity_buttonLl"/>
+    
+    <!-- <RelativeLayout 
+        android:id="@+id/word_test_activity_barRl"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:layout_toLeftOf="@id/word_test_activity_buttonLl">
+        
+        <TextView 
+            android:id="@+id/word_test_activity_couseCount" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程：3|总单词：24"
+            android:textSize="20sp" 
+            android:layout_marginLeft="30dp" 
+            android:layout_marginTop="10dp"/>
+        
+        <TextView 
+            android:id="@+id/word_test_activity_leftCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|剩余单词:10"
+            android:textSize="20sp" 
+            android:layout_toRightOf="@id/word_test_activity_couseCount"
+            android:layout_alignTop="@id/word_test_activity_couseCount"/>
+        
+        <TextView 
+            android:id="@+id/word_test_activity_progressTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进度  15%"
+            android:textSize="20sp"
+            android:layout_below="@id/word_test_activity_couseCount"
+            android:layout_alignLeft="@id/word_test_activity_couseCount"
+            android:layout_marginTop="10dp"/>
+        
+        <ProgressBar 
+            android:id="@+id/word_test_activity_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent" 
+            android:layout_height="6dp" 
+            android:layout_toRightOf="@+id/word_test_activity_progressTv"
+            android:background="@drawable/actionbar_wordpre_progressbcg_shape"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="80dp"
+            android:layout_below="@id/word_test_activity_couseCount"
+            android:layout_marginTop="18dp"
+            android:progress="0"
+            android:max="100"/>
+    </RelativeLayout> -->
+    
+   <FrameLayout 
+        android:id="@+id/word_test_activity_Choosefram"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/word_test_activity_buttonLl"
+        android:layout_marginLeft="16dp" 
+        android:layout_marginRight="16dp">
+        
+        <fragment 
+	        android:id="@+id/word_test_activity_ChooseFrag"
+	        android:name="com.emodou.home.WordTestChooseFrag"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+    </FrameLayout>
+    
+   <!--  <fragment 
+	        android:id="@+id/word_test_activity_ChooseFrag"
+	        android:name="com.emodou.home.WordTestChooseFrag"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/> -->
+    
+   <FrameLayout 
+        android:id="@+id/word_test_activity_Detailfram"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/word_test_activity_buttonLl"
+        android:layout_marginLeft="16dp" 
+        android:layout_marginRight="16dp"
+        android:visibility="gone">
+        
+        <fragment 
+	        android:id="@+id/word_test_activity_DetailFrag"
+	        android:name="com.emodou.home.WordTestDetailFrag"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+    </FrameLayout> 
+    
+     
+    
+    
+    
+
+</RelativeLayout>

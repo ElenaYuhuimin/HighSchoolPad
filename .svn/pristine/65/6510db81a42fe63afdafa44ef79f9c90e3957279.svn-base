@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+  
+	<ImageView 
+	    android:id="@+id/home_changebook_bookitem_bcg"
+	    android:layout_width="180dp"
+	    android:layout_height="220dp"
+	    android:background="@drawable/home_changebook_bookitem_bcg_unclick"/>	
+	 
+	
+	<TextView 
+	    android:id="@+id/home_changebook_bookitem_nameTv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="第一册"
+	    android:textColor="@color/white"
+	    android:textSize="32sp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="30dp"/>
+	
+	<LinearLayout 
+	    android:id="@+id/home_changebook_bookitem_progress_rl"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginTop="150dp"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:id="@+id/home_changebook_bookitem_progressTv"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="进度"
+		    android:textSize="20sp"
+		    android:textColor="@color/home_changebook_purple"
+		    android:layout_marginLeft="10dp"/>
+	    
+	    <ProgressBar 
+	        android:id="@+id/home_changebook_bookitem_progress"
+	        android:indeterminate="false"  
+    		android:indeterminateOnly="false" 
+	        android:layout_width="70dp"
+	        android:layout_height="15dp" 
+	        android:layout_marginLeft="2dp"
+	        android:layout_gravity="center_vertical"
+	        android:progressDrawable="@drawable/home_changebook_progress_layer"/>
+	    
+	</LinearLayout>
+
+	
+	
+</RelativeLayout>

@@ -1,0 +1,1266 @@
+[
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_download_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_download_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_front_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_front_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_set_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_set_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_background.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_background.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changebook_bookitem_bcg_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changebook_bookitem_bcg_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_bookinfo_clock.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_bookinfo_clock.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_check_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_check_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_progress_read_progress.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_progress_read_progress.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_find_rlbcg.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_find_rlbcg.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_record_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_record_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_background_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_background_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_reviewwrong_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_reviewwrong_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_item_choice_choice.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_item_choice_choice.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_tonextwork_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_tonextwork_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_changepsd_newpsd_left.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_changepsd_newpsd_left.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_y04.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_y04.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_newword_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_newword_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qusresult_returncourselist_icon_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qusresult_returncourselist_icon_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_test_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_test_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_homeworkimv_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_homeworkimv_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_downloaded_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_downloaded_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_activity_restudy_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_activity_restudy_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_changepsd_oldpsd_left.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_changepsd_oldpsd_left.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_cry.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_cry.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_downloading_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_downloading_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_homework_bigitem_check.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_homework_bigitem_check.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qusresult_returncourselist_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qusresult_returncourselist_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_changepsd_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_changepsd_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/logo_bcg.jpg",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/logo_bcg.jpg"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/d_o01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/d_o01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_griditem_rightbcg.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_griditem_rightbcg.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_actionbar_back_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_actionbar_back_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_laugh.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_laugh.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_wechat_qr.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_wechat_qr.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/d_c01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/d_c01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_pause_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_pause_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_progress_listen_back.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_progress_listen_back.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_myvoice_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_myvoice_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_confirm_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_confirm_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_laba_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_laba_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_testusetimeicon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_testusetimeicon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_arrow.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_arrow.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/n_y01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/n_y01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_web.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_web.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_set.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_set.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_rightrateicon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_rightrateicon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_activity_next_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_activity_next_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_neword_findlabel.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_neword_findlabel.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_find_change_cn.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_find_change_cn.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_img_line.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_img_line.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/person_list_count_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/person_list_count_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_homework_smallitem_cutoffimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_homework_smallitem_cutoffimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_weibo.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_weibo.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_button_register_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_button_register_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_button_login_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_button_login_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_download_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_download_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_returncourselist_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_returncourselist_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_logo.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_logo.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/w_c01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/w_c01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_item_buy_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_item_buy_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_wechat_hope.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_wechat_hope.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_switch_state_mask.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_switch_state_mask.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_addword_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_addword_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_hint_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_hint_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_rightnumicon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_rightnumicon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_pause_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_pause_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_changepsd_forget_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_changepsd_forget_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_item_right.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_item_right.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/w_o01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/w_o01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_dialog_return_exit_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_dialog_return_exit_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_notlearn.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_notlearn.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_logo.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_logo.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_home.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_home.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_location.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_location.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qus_test_indicator_item_circle_done.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qus_test_indicator_item_circle_done.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_img_captcha.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_img_captcha.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_learndata_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_learndata_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_downloading_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_downloading_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_han_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_han_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_result_listitem_notadd.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_result_listitem_notadd.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_button_register.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_button_register.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_laba_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_laba_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_downloading_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_downloading_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_learndata.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_learndata.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_register.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_register.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_pause_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_pause_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_update_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_update_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_continueplay_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_continueplay_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/w_y03.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/w_y03.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_laba_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_laba_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_msgimv_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_msgimv_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_c01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_c01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_what_code_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_what_code_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_notlearn.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_notlearn.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_presec_forget_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_presec_forget_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_find_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_find_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_item_select.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_item_select.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_background_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_background_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_filter_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_filter_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_scanimv_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_scanimv_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_download_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_download_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_easy_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_easy_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_find_change_en.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_find_change_en.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_han_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_han_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_deleteword_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_deleteword_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_homework_smallitem_doneimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_homework_smallitem_doneimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_popup_item_choiceimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_popup_item_choiceimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/person_list_personinfo_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/person_list_personinfo_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_activity_restudy_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_activity_restudy_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_downloaded_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_downloaded_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_new_rlbcg_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_new_rlbcg_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_happy.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_happy.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_dialog_return_continue_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_dialog_return_continue_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_code_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_code_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_easy_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_easy_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_download_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_download_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_han_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_han_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_item_choice_unchoice.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_item_choice_unchoice.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_downloaded_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_downloaded_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_downloading_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_downloading_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_timing_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_timing_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_presec_remember_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_presec_remember_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_feedback_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_feedback_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_startlearn_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_startlearn_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_downloading_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_downloading_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_protocol_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_protocol_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_word_background_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_word_background_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_easy_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_easy_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_presec_forget_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_presec_forget_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_progress_circle_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_progress_circle_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_search_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_search_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_hint_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_hint_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_find_icon_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_find_icon_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_pause_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_pause_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_heart_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_heart_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_password.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_password.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_griditem_wrongbcg.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_griditem_wrongbcg.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_learning.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_learning.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_word_background.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_word_background.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_wechat_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_wechat_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_delete_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_delete_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_y05.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_y05.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_havecode_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_havecode_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_que.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_que.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_logout_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_logout_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_home_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_home_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_heart_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_heart_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_code.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_code.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_pause_sysmusic_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_pause_sysmusic_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_outimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_outimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_wechat.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_wechat.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_mean_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_mean_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yuan_white.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/yuan_white.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_easy_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_easy_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_discovery.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_discovery.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_hide_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_hide_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_msgimv_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_msgimv_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_img_logo.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_img_logo.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_detail_addword.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_detail_addword.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_progress_circle_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_progress_circle_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_learning.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_learning.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_classitem_img_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_classitem_img_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_homework_bigitem_uncheck.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_homework_bigitem_uncheck.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_scanimv_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_scanimv_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_result_leave_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_result_leave_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_dialog_return_continue_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_dialog_return_continue_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_register_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_register_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_delete_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_delete_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_learned.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_learned.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_button_login.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_button_login.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_learning.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_learning.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_line.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_line.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_download_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_download_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_item_buy_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_item_buy_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_img_headphoto.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_img_headphoto.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/actionbar_listen_qus_progress_replay.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/actionbar_listen_qus_progress_replay.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_speak_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_speak_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_result_listitem_added.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_result_listitem_added.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_page_end.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_page_end.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_deleteword_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_deleteword_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_new_a.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_new_a.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_play_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_play_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_cirprogress.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_cirprogress.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_han_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_han_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_mobile_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_mobile_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_word_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_word_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_learn_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_learn_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_indicator_item_circle_undo.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_indicator_item_circle_undo.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_wechat_concern_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_wechat_concern_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_check_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_check_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_hide_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_hide_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/d_y02.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/d_y02.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_downloaded_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_downloaded_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_item_wrong.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_item_wrong.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_font_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_font_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_remember_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_remember_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_remember_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_remember_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_progress_listen_progress.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_progress_listen_progress.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_new_rlbcg_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_new_rlbcg_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_background_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_background_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_download.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_download.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_search_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_search_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_downloaded_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_downloaded_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_han_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_han_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_next_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_next_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_play_sysmusic_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_play_sysmusic_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_havecode_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_havecode_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_changepsd_forget_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_changepsd_forget_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_addword_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_addword_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/score_test_time.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/score_test_time.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_y03.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_y03.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_downloading_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_downloading_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_inimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_inimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changebook_bookitem_bcg_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changebook_bookitem_bcg_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_icon_placeholder.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_icon_placeholder.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_next_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_next_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_go_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_go_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_background.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_background.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/person_list_myclass_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/person_list_myclass_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_newword_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_newword_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_changepsd_confirmpsd_left.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_changepsd_confirmpsd_left.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_img_code_left.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_img_code_left.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_main_discovery_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/tab_main_discovery_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_classitem_img_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_classitem_img_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_major_homeworkimv_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_major_homeworkimv_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_background.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_background.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_o01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_o01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_prethd_front_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_prethd_front_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/myclass_homework_smallitem_inimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/myclass_homework_smallitem_inimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_confirm_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_confirm_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_item_icondefault.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_item_icondefault.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_protocol.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_protocol.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_activity_next_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_activity_next_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_learned.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_learned.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_filter_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_filter_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_push_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_push_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_indicator_item_circle_done.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_indicator_item_circle_done.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_mean_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_mean_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_phone.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_phone.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qus_test_item_choice_choice.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qus_test_item_choice_choice.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_switch_state.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_switch_state.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/w_y02.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/w_y02.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_han_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_han_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_update_prompt.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_update_prompt.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_learning.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_learning.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_choose_fragment_wrongimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_choose_fragment_wrongimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_y02.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_y02.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_download_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_download_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_aboutus_email.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_aboutus_email.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_normalqus_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_normalqus_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_switch_frame.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_switch_frame.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_changepackage_item_unselect.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_changepackage_item_unselect.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qus_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qus_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/score_test_heart.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/score_test_heart.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_startlearn_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_startlearn_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_img_forgetpassword.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_img_forgetpassword.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_presec_remember_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_presec_remember_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_timing_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_timing_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_progress_word_progress.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_progress_word_progress.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/actionbar_listen_qus_progress_pause.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/actionbar_listen_qus_progress_pause.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_learned.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_learned.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_class_whatcode.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_class_whatcode.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_wait_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_wait_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/login_actionbar_back_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/login_actionbar_back_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_button_change.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_button_change.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_continueplay_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_continueplay_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_play_sysmusic_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_play_sysmusic_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_speak_downloaded_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_speak_downloaded_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_list_aboutus_icon.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_list_aboutus_icon.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_wait_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_wait_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_record_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_record_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_pause_sysmusic_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_pause_sysmusic_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qus_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qus_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_word_icon_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_word_icon_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_main_go_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_main_go_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_button_change_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_button_change_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_learn_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_learn_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/register_button_what_code.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/register_button_what_code.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/m_y01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/m_y01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_progress_speak_progress.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_progress_speak_progress.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_logout_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_logout_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/actionbar_read_clock.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/actionbar_read_clock.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_read_download_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_read_download_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/actionbar_listen_qus_progress_play.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/actionbar_listen_qus_progress_play.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_reviewwrong_icon_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_reviewwrong_icon_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_play_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_play_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_learn_dialog_return_exit_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_learn_dialog_return_exit_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_preview_laba_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_preview_laba_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_switch_slider.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_switch_slider.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_icon_progress_bar.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_icon_progress_bar.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/w_y01.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/w_y01.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_learned.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_learned.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_wordlist_detail_deleteword.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_wordlist_detail_deleteword.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_courselist_listen_download_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_courselist_listen_download_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_read_qus_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_read_qus_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_speak_myvoice_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_speak_myvoice_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_fragment_wechat_concern_click.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/set_fragment_wechat_concern_click.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_choose_fragment_rightimv.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_choose_fragment_rightimv.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_courselist_test_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_courselist_test_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/word_test_result_leave_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/word_test_result_leave_unclick.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_listen_qusresult_returncourselist_icon_unclick.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-xhdpi/home_listen_qusresult_returncourselist_icon_unclick.png"
+    }
+]

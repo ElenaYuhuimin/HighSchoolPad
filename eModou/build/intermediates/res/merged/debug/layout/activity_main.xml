@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal">
+	    
+	    <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+	    
+	     <LinearLayout
+            android:id="@+id/main_tab_left"
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="90dp"
+                android:layout_height="fill_parent"
+                android:background="@color/tab_whole"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/main_tab_home"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/tab_main_home_selector"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    />
+
+                <RadioButton
+                    android:id="@+id/main_tab_dis"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:drawableLeft="@drawable/tab_main_discovery_selector"
+                    android:layout_weight="1"
+                    />
+
+                <RadioButton
+                    android:id="@+id/main_tab_learndata"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:drawableLeft="@drawable/tab_main_learndata_selector"
+                    android:layout_weight="1"
+                     />
+                
+                <RadioButton
+                    android:id="@+id/main_tab_set"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:drawableLeft="@drawable/tab_main_set_selector"
+                    android:layout_weight="1"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+	    
+	    <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.93" >
+        </FrameLayout>
+        
+	    
+	</LinearLayout>
+</TabHost>

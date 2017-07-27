@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 注册页——激活码是什么 -->
+	<item android:drawable="@drawable/register_button_what_code_click" android:state_pressed="true"/>  
+    <item android:drawable="@drawable/register_button_what_code"  android:state_pressed="false"/>  
+    
+</selector>

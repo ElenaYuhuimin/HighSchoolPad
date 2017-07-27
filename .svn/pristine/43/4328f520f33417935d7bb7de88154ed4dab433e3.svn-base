@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <!-- 左半部分的布局 -->
+    <RelativeLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="130dp"
+        android:layout_weight="1.0"
+        android:background="@color/courselist_leftbgd">
+        
+        <LinearLayout
+            android:id="@+id/word_courselist_listview_unitRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+            <!-- 单元名称列表布局 -->
+	        <ListView 
+	            android:id="@+id/word_courselist_listview_unit"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:divider="@color/courselist_unit_divider"
+	            android:dividerHeight="2dp"
+	            android:listSelector="@color/white">
+	        </ListView>
+         </LinearLayout>
+        
+         <Button 
+            android:id="@+id/word_courselist_startlearn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word_courselist_startlean_selector"
+            android:text="@string/word_courselist_startlearn"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="40dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="4dp"
+	    android:layout_height="fill_parent"
+	    android:background="@color/courselist_class_divider">	        
+	</View>
+	
+    <LinearLayout 
+        android:layout_width="350dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:background="@color/white"
+        android:orientation="vertical">
+        
+        <ListView 
+            android:id="@+id/word_courselist_listview_class"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/courselist_class_divider"
+            android:dividerHeight="2dp"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+    </LinearLayout>
+	
+    <View 
+        android:layout_width="4dp"
+	    android:layout_height="fill_parent"
+	    android:background="@color/courselist_class_divider">	        
+	</View>
+	
+    <LinearLayout 
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/word_courselist_learn_lil">
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_courselist_learn_selector"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="110dp"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/word_courselist_learn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+	    	android:layout_height="2dp"
+	    	android:background="@color/courselist_class_divider"/>
+        
+         <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/word_courselist_test_lil">
+            
+             <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_courselist_test_selector"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="110dp"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/word_courselist_test"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

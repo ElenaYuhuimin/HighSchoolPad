@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="@color/home_read_qus_test_qusfootview_imvclick"/>
+    <corners
+        android:radius="99dp"/>
+
+</shape>

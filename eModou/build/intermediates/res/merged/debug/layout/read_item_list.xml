@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+ <com.emodou.util.TextPage
+     android:id="@+id/mytestpage"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="25dp"
+     android:layout_marginRight="16dp"
+     android:text="22222"
+     android:textSize="30sp" />
+
+ <TextView
+     android:id="@+id/tv_han"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/mytestpage"
+      android:textSize="25sp" 
+     android:layout_below="@+id/mytestpage"
+     android:textColor="#bebebe"
+     android:text="TextView" />
+
+</RelativeLayout>

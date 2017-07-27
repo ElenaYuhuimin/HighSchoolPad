@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp" 
+    android:background="@color/white">
+    
+    
+   
+        
+        <TextView 
+		    android:id="@+id/myclass_popup_item_crName"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="20sp"
+		    android:text="班级"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="40dp"/>
+	
+		<ImageView 
+		    android:id="@+id/myclass_popup_item_choiceImv"
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:background="@drawable/myclass_popup_item_choiceimv"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="40dp"/>
+   
+	
+</RelativeLayout>

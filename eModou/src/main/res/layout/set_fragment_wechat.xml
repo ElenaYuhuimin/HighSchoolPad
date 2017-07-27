@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:text="@string/set_fragment_wechat_text1"
+        android:textColor="@color/set_list_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <ImageView 
+        android:background="@drawable/set_fragment_wechat_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
+    
+    <TextView 
+        android:text="@string/set_fragment_wechat_text2"
+        android:textColor="@color/set_list_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <ImageView 
+        android:background="@drawable/set_fragment_wechat_hope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
+    
+    
+    <Button 
+        android:id="@+id/set_fragment_wechat_concern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_fragment_wechat_concern_selector"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

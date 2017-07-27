@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<RelativeLayout 
+	    android:id="@+id/word_search_find_rl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/word_main_find_rlbcg">
+	    
+	    <ImageView 
+	        android:id="@+id/word_search_find_change_en"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="60dp"
+	        android:background="@drawable/word_main_find_change_en"/>
+	    
+	    <ImageView 
+	        android:id="@+id/word_search_find_change_cn"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="60dp"
+	        android:background="@drawable/word_main_find_change_cn"
+	        android:visibility="gone"/>
+	    
+	    <EditText 
+	        android:id="@+id/word_search_find_edt"
+	        android:layout_height="60dp"
+	        android:layout_width="1000dp"
+	        android:layout_marginRight="60dp"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/word_main_find_shape"
+	        android:layout_marginLeft="280dp"
+	        android:drawableRight="@drawable/word_main_find_icon_selector"
+	        android:paddingRight="20dp"
+	        android:paddingLeft="20dp"
+	        android:hint="查词"
+	        android:textSize="35sp"
+	        android:textColor="#7c7c7c"
+	        android:textColorHint="#7c7c7c"
+	        android:singleLine="true"/>
+	</RelativeLayout>
+	
+	<ListView 
+	    android:id="@+id/word_search_listview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/word_search_find_rl"
+	    android:divider="@color/courselist_class_divider"
+        android:dividerHeight="2dp"></ListView>
+</RelativeLayout>

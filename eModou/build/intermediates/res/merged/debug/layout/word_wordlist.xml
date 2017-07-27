@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+    
+    <ListView 
+        android:id="@+id/word_wordlist_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/courselist_class_divider"
+        android:dividerHeight="2dp">
+        
+    </ListView>
+    
+	
+    <!-- <RelativeLayout 
+        android:layout_height="90dp"
+        android:layout_width="fill_parent"
+        android:background="@color/home_read_sidebar"
+        android:layout_alignParentBottom="true">
+        
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排序"
+            android:textSize="32sp"
+            android:textColor="@color/actionbar_word"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"/>
+        
+        <RadioGroup 
+            android:id="@+id/word_wordlist_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="170dp"
+            android:orientation="horizontal">
+            
+            <RadioButton 
+                android:id="@+id/word_wordlist_radioletter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_wordlist_radio1text"
+                android:textSize="32sp"
+                android:textColor="@drawable/word_wordlist_radiotextcolor_selector"
+                android:button="@drawable/word_wordlist_radiobtn_selector"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"/>
+            
+            <RadioButton 
+                android:id="@+id/word_wordlist_radiobook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/word_wordlist_radio2text"
+                android:textSize="32sp"
+                android:textColor="@drawable/word_wordlist_radiotextcolor_selector"
+                android:button="@drawable/word_wordlist_radiobtn_selector"
+                android:paddingLeft="10dp"/>
+        </RadioGroup>
+        
+        <ImageButton 
+            android:id="@+id/word_wordlist_mean_click"
+            android:background="@drawable/word_wordlist_mean_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/word_wordlist_radiogroup"
+            android:layout_marginLeft="80dp"
+            android:visibility="gone"/>
+        
+        <ImageButton 
+            android:id="@+id/word_wordlist_mean_unclick"
+            android:background="@drawable/word_wordlist_mean_unclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/word_wordlist_radiogroup"
+            android:layout_marginLeft="80dp"/>
+        
+        <Button 
+            android:id="@+id/word_wordlist_startlearn"
+            android:background="@drawable/word_courselist_startlean_selector"
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@id/word_wordlist_mean_unclick"
+            android:layout_alignBottom="@id/word_wordlist_mean_unclick"
+            android:layout_toRightOf="@id/word_wordlist_mean_unclick"
+            android:layout_marginLeft="80dp"
+            android:text="@string/word_wordlist_startlean"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+    </RelativeLayout> -->
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_courselist_unititem_linear"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal" 
+    android:background="@color/courselist_unititem_unclick">
+    
+	
+    <com.emodou.util.CustomFontTextView 
+	    android:id="@+id/word_courselist_unititem_nametext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textColor="@color/courselist_unititem_numtext"
+	    android:textSize="35sp"
+	    android:layout_marginLeft="75dp"/>
+</LinearLayout>

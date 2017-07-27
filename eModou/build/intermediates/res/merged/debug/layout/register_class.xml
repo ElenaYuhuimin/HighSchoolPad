@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        
+        <LinearLayout 
+		    android:id="@+id/register_class_buttonLl"
+		    android:layout_alignParentTop="true"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:visibility="gone">
+	    
+		    <ImageView 
+		        android:id="@+id/register_class_startlearn"
+		        android:layout_width="280dp"
+		        android:layout_height="120dp"
+		        android:background="@drawable/register_class_startlearn_selector"
+		        android:layout_marginLeft="40dp"/>
+		    
+		    <ImageView 
+		        android:id="@+id/register_class_havecode"
+		        android:layout_width="280dp"
+		        android:layout_height="120dp"
+		        android:background="@drawable/register_class_havecode_selector"
+		        android:layout_marginLeft="60dp" 
+		        />
+		    
+		    <ImageView 
+		        android:id="@+id/register_class_whatcode"
+		        android:layout_width="30dp"
+		        android:layout_height="30dp" 
+		        android:background="@drawable/register_class_whatcode"
+		        android:layout_marginRight="40dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_gravity="bottom"/>
+		</LinearLayout>
+	
+		<RelativeLayout 
+		    android:id="@+id/register_class_contentRl"
+		    android:layout_width="750dp"
+		    android:layout_height="wrap_content"
+		 	android:layout_centerHorizontal="true"
+		    android:layout_below="@id/register_class_buttonLl"
+		    android:layout_marginTop="20dp">
+		    
+		    <!-- 班级码 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_codeRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp">
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentTop="true"/>
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_codetitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_codetitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <ImageView 
+		            android:id="@+id/register_class_scanimv"
+		            android:layout_width="34dp"
+		            android:layout_height="28dp"
+		            android:layout_centerVertical="true"
+		            android:layout_alignParentRight="true"
+		            android:background="@drawable/register_class_scanimv_selector"
+		            android:layout_marginRight="20dp"/>
+		        
+		        
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editCode"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   
+		   
+		    <!-- 用户姓名 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_usernameRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_codeRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_usernametitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_usernametitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editUsername"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 性别 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_usersex"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_usernameRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_usersextitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_usersextitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <RadioGroup 
+		            android:id="@+id/register_class_usersexRgroup"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:orientation="horizontal">
+		            
+		            <RadioButton 
+		                android:id="@+id/register_class_usersexMan"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="男"
+		                android:textSize="20sp" />
+		            
+		             <RadioButton 
+		                android:id="@+id/register_class_usersexWoman"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="女"
+		                android:textSize="20sp"
+		                android:layout_marginLeft="40dp" />
+		        </RadioGroup>      
+			</RelativeLayout>
+			
+		   <!-- 用户昵称 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_nikinameRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_usersex">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_nikinametitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_nikinametitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editNikiname"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 年级 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_grade"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_nikinameRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_gradetitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_gradetitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editGrade"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 地区 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_locationRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_grade">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_locationtitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_locationtitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editLocation"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- QQ -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_QQRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_locationRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_QQtitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_QQtitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editQQ"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 邮箱 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_emailRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_QQRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_emailtitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_emailtitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editEmail"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 家长姓名 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_parentNameRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_emailRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_parentnametitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_parentnametitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editParentname"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   
+		    <!-- 家长电话 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_parentphoneRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_parentNameRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_parentphonetitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_parentphonetitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editParentphone"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 家长邮箱 -->
+		   <RelativeLayout 
+		        android:id="@+id/register_class_parentemailRl"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_below="@id/register_class_parentphoneRl">
+		        
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_height="2dp" 
+		            android:background="@color/home_listen_qus_item_darkline"
+		            android:layout_alignParentBottom="true"/>
+		        
+		        <TextView 
+		            android:id="@+id/register_class_parentemailtitle"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp"
+		            android:text="@string/register_class_parentemailtitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="20dp"/>
+		        
+		        <EditText 
+		            android:id="@+id/register_class_editParentemail"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_marginLeft="130dp"
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"/>        
+			</RelativeLayout>
+			
+		   <!-- 完成 -->
+			<Button
+			    android:id="@+id/register_class_completeBtn"
+			    android:layout_width="600dp"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/register_button_register_selector"
+			    android:text="@string/register_class_completeImb"
+		        android:textSize="20sp"
+		        android:textColor="#9a7a23"
+		        android:layout_below="@id/register_class_parentemailRl"
+		        android:layout_marginTop="20dp"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center_vertical"
+		        android:paddingLeft="270dp" 
+		        android:paddingRight="270dp"/>
+    	</RelativeLayout>
+	
+	</RelativeLayout>		
+	
+	
+</RelativeLayout>

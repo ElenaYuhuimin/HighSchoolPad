@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        <clip 
+            android:drawable="@drawable/home_progress_listen_back"
+            android:clipOrientation="vertical"
+            android:gravity="bottom">
+        </clip>     
+    </item>
+    
+    <item android:id="@android:id/progress">   
+        <clip 
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/home_progress_listen_progress"
+            android:gravity="bottom">
+        </clip>     
+    </item>
+
+</layer-list>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="reference" name="circularProgressBarStyle"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="actionbar_home">#2ecd7c</color>
+    <color name="actionbar_listen">#2ecd7c</color>
+    <color name="actionbar_listen_qus_progressbar">#c1ff87</color>
+    <color name="actionbar_listen_qus_progressbcg">#1a914f</color>
+    <color name="actionbar_read">#3eb9e1</color>
+    <color name="actionbar_speak">#ff994e</color>
+    <color name="actionbar_word">#d25bbf</color>
+    <color name="black">#000000</color>
+    <color name="courselist_class_divider">#e3e3e3</color>
+    <color name="courselist_classitem_nametext">#535353</color>
+    <color name="courselist_leftbgd">#4a4a4a</color>
+    <color name="courselist_unit_divider">#181818</color>
+    <color name="courselist_unitiem_nametext">#e3e3e3</color>
+    <color name="courselist_unititem_click">#3d3d3d</color>
+    <color name="courselist_unititem_numtext">#ababab</color>
+    <color name="courselist_unititem_numtext_click">#ffffff</color>
+    <color name="courselist_unititem_textcolor_unselected">#e3e3e3</color>
+    <color name="courselist_unititem_unclick">#4a4a4a</color>
+    <color name="darkblue">#1d6a84</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="home_background">#f8f8f8</color>
+    <color name="home_changebook_blue">#35aec9</color>
+    <color name="home_changebook_purple">#6e498e</color>
+    <color name="home_line">#d6c68b</color>
+    <color name="home_listen_qus_item_ansClickBcg">#e7dde7</color>
+    <color name="home_listen_qus_item_darkline">#e7e7e7</color>
+    <color name="home_listen_qus_item_lightline">#dedede</color>
+    <color name="home_listen_qus_item_titlelayout">#f0f1f0</color>
+    <color name="home_listen_qus_item_titlelayout_text">#17754c</color>
+    <color name="home_listen_qus_qusfootview_imvclick">#1bb95c</color>
+    <color name="home_listen_qusresult_darktext">#a4a4a4</color>
+    <color name="home_listen_qusreview_righttext">#00a73b</color>
+    <color name="home_listen_qusreview_wrongtext">#ff2731</color>
+    <color name="home_read_qus_test_qusfootview_imvclick">#269dd6</color>
+    <color name="home_read_sidebar">#333e3a</color>
+    <color name="light_yellow">#ffe69a</color>
+    <color name="lightgrey">#55f1f1f1</color>
+    <color name="person_myclass_classitem_darkgreen">#008a5a</color>
+    <color name="possible_result_points">#00000000</color>
+    <color name="red">#fff10800</color>
+    <color name="result_view">#b0000000</color>
+    <color name="set_fragment_aboutus_title">#79c692</color>
+    <color name="set_fragment_bcg">#f1f1f1</color>
+    <color name="set_fragment_normalqus_ans">#333333</color>
+    <color name="set_fragment_normalqus_qus">#252525</color>
+    <color name="set_fragment_push_line">#d7d7d7</color>
+    <color name="set_list_pressed">#e0f8eb</color>
+    <color name="set_list_text">#333333</color>
+    <color name="set_list_unpressed">#ffffff</color>
+    <color name="tab_whole">#363636</color>
+    <color name="test_background">#ffffff</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="white">#ffffff</color>
+    <color name="word_bcg">#f1f1f1</color>
+    <color name="word_changepackage_codeRlBcg">#ffd956</color>
+    <color name="word_darkpurple">#c13fa8</color>
+    <color name="word_lightgrey">#9b9b9b</color>
+    <color name="word_line">#f1f1f1</color>
+    <color name="word_secimp">#4f4f4f</color>
+    <color name="word_wordlist_familiarhint_bcg">#2ecd7b</color>
+    <color name="word_wordlist_unfamiliarhint_bcg">#ff5d4a</color>
+    <color name="word_wordlist_vaguehint_bcg">#fdb60c</color>
+    <color name="word_yellow">#f0cd6f</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="HoloCircularProgressBar"><attr format="dimension" name="stroke_width"/><attr format="float" name="progress"/><attr format="float" name="marker_progress"/><attr format="color" name="progress_color"/><attr format="color" name="progress_background_color"/><attr format="boolean" name="thumb_visible"/><attr format="boolean" name="marker_visible"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <item name="about_version_code" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="split" type="id">false</item>
+    <item name="webview" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="TestActivity_count1">第</string>
+    <string name="TestActivity_count2">题/共</string>
+    <string name="TestActivity_right">you are right</string>
+    <string name="TestActivity_wrong">you are wrong</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionbar_courselist_listen">听力课表</string>
+    <string name="actionbar_courselist_read">阅读课表</string>
+    <string name="actionbar_courselist_speak">口语课表</string>
+    <string name="actionbar_text_home">易魔豆首页</string>
+    <string name="app_name">eModou</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_changebook_bookHintNone">当前尚未选书，点击下方课本进行操作</string>
+    <string name="home_changebook_failbook">获取课本列表失败</string>
+    <string name="home_changebook_noNetConnected">您当前没有连网，请连网后刷新课本列表！</string>
+    <string name="home_changebook_setFailed1">同步书本失败，错误代码为1</string>
+    <string name="home_changebook_setFailed2">同步书本失败，错误代码为2</string>
+    <string name="home_changebook_title">课本选择</string>
+    <string name="home_changebook_wrongbook">该教材不存在</string>
+    <string name="home_changebook_wrongchange">获取本册书的课程信息失败</string>
+    <string name="home_changebook_wrongchange_noNetWork">获取本册书的课程信息失败, 请检查网络连接</string>
+    <string name="home_changebook_wrongpackage">抱歉，该学习包不存在！</string>
+    <string name="home_changebook_wrongticket">抱歉，您可能已经在其他地方登陆！</string>
+    <string name="home_courselist_nocourse">没有课程</string>
+    <string name="home_courselist_ok">确认</string>
+    <string name="home_listen_queResult_uploadFail">上传做题结果失败</string>
+    <string name="home_listen_queResult_uploadSuc">上传做题结果成功</string>
+    <string name="home_listen_qusResult_UsetimeTitle">用时</string>
+    <string name="home_listen_qusResult_returncourselist_text">返回列表</string>
+    <string name="home_listen_qusResult_reviewwrong_text">查看错题</string>
+    <string name="home_listen_qusResult_rightNumTitle">正确题数</string>
+    <string name="home_listen_qusResult_rightRateTitle">正确率</string>
+    <string name="home_listen_qusResult_timeout">作业上传时间已截止</string>
+    <string name="home_listen_qusResult_title">做题结果</string>
+    <string name="home_listen_qusResult_tonextwork_text">上传作业结果</string>
+    <string name="home_listen_qusResult_wrongDetail">错题详情</string>
+    <string name="home_listen_qusReview_title">错题回顾</string>
+    <string name="home_listen_qus_summitHint">您还有未完成的题目，请点击右侧灰色圆点查看并完成未做题目！</string>
+    <string name="home_speak_tonextwork_text">上\n传\n做\n题\n结\n果</string>
+    <string name="login_button_login_text">登       陆</string>
+    <string name="login_button_register_text">注       册</string>
+    <string name="login_id_hint">请输入手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="myclass_homework_refreshHttpFail">作业列表刷新失败</string>
+    <string name="myclass_homework_refreshHttpSuc">作业列表刷新成功</string>
+    <string name="myclass_major_empty">请到 “个人——我的班级” 中输入班级码</string>
+    <string name="myclass_major_homework">作业</string>
+    <string name="myclass_major_message">消息</string>
+    <string name="myclass_workdetail_bookNotSelect">抱歉，该作业对应的书和您目前学习的书不是同一本，请将您当前学习的书换成</string>
+    <string name="myclass_workdetail_doneAllWork">恭喜您，本次作业全部做完！</string>
+    <string name="myclass_workdetail_needtitle">需要使用</string>
+    <string name="myclass_workdetail_refreshFail">刷新作业列表失败</string>
+    <string name="myclass_workdetail_title">作业列表</string>
+    <string name="person_appclass_getCodeInfoFailed">获取该班级信息失败</string>
+    <string name="person_appclass_getCodeInfoSuc">获取该班级信息成功</string>
+    <string name="person_list_count_text">个性化统计</string>
+    <string name="person_list_myclass_text">我的班级</string>
+    <string name="person_list_personInfo_text">个人信息</string>
+    <string name="person_major_actionbar">个       人</string>
+    <string name="person_major_barcompelete">完成</string>
+    <string name="person_major_baredit">修改</string>
+    <string name="person_major_barrefresh">刷新</string>
+    <string name="person_myclass_app_appFailed">申请加入失败</string>
+    <string name="person_myclass_app_appSuc">申请加入成功</string>
+    <string name="person_myclass_app_btn">申请加入该班级</string>
+    <string name="person_myclass_app_classname">班级名称：无</string>
+    <string name="person_myclass_app_codeinfotitle">该班级的信息为：</string>
+    <string name="person_myclass_app_grade">年级：无</string>
+    <string name="person_myclass_app_group">分组:其他组</string>
+    <string name="person_myclass_app_schoolname">学校名称：无</string>
+    <string name="person_myclass_app_teachername">教师名称：无</string>
+    <string name="person_myclass_checkFail">当前班级正在申请中，不能查看！</string>
+    <string name="person_myclass_classApp">申请中的班级</string>
+    <string name="person_myclass_classhaved">已有班级</string>
+    <string name="person_myclass_detail_Answer">答疑数</string>
+    <string name="person_myclass_detail_Question">提问数</string>
+    <string name="person_myclass_detail_cancel">撤销申请</string>
+    <string name="person_myclass_detail_cancelFail">撤销申请失败</string>
+    <string name="person_myclass_detail_cancelSuc">撤销申请成功</string>
+    <string name="person_myclass_detail_classname">班级名称</string>
+    <string name="person_myclass_detail_classroomid">班级码</string>
+    <string name="person_myclass_detail_grade">年级</string>
+    <string name="person_myclass_detail_leave">退出班级</string>
+    <string name="person_myclass_detail_leaveFail">退出班级失败</string>
+    <string name="person_myclass_detail_leaveSuc">退出班级成功</string>
+    <string name="person_myclass_detail_package">学习包</string>
+    <string name="person_myclass_detail_schoolname">学校名称</string>
+    <string name="person_myclass_detail_teachername">老师姓名</string>
+    <string name="person_myclass_detail_updateFail">界面信息刷新失败</string>
+    <string name="person_myclass_detail_updateSun">界面信息刷新成功</string>
+    <string name="person_myclass_detail_workDoing">进行中作业数</string>
+    <string name="person_myclass_detail_workDone">已完成作业数</string>
+    <string name="person_myclass_joinclass">加入新班级</string>
+    <string name="person_myclass_nextstep">下一步</string>
+    <string name="person_myclass_updateFailed">刷新班级列表失败</string>
+    <string name="person_myclass_updateSuc">刷新班级列表成功</string>
+    <string name="person_personinfo_QQ">QQ</string>
+    <string name="person_personinfo_email">Email</string>
+    <string name="person_personinfo_grade">年级</string>
+    <string name="person_personinfo_location">地区</string>
+    <string name="person_personinfo_nikiname">昵称</string>
+    <string name="person_personinfo_parentemail">家长邮箱</string>
+    <string name="person_personinfo_parentname">家长姓名</string>
+    <string name="person_personinfo_parentphone">家长电话</string>
+    <string name="person_personinfo_phone">电话</string>
+    <string name="person_personinfo_photo">头像</string>
+    <string name="person_personinfo_school">学校</string>
+    <string name="person_personinfo_sex">性别</string>
+    <string name="person_personinfo_updateFail">个人信息上传失败</string>
+    <string name="person_personinfo_updateSuc">个人信息上传成功</string>
+    <string name="person_personinfo_username">姓名</string>
+    <string name="prompt">提示</string>
+    <string name="prompt_network">请检查网络连接</string>
+    <string name="prompt_nonwifi">您现在所处的并非wifi环境，是否继续下载</string>
+    <string name="prompt_wrong_content">内容出现错误</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_refreshing">Refreshing…</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="record_class_upload_failed">上传课程记录失败</string>
+    <string name="record_class_upload_success">上传课程记录成功</string>
+    <string name="record_count_download_failed">下载时间信息失败</string>
+    <string name="record_count_download_success">下载时间信息成功</string>
+    <string name="record_home_download_failed">下载课程信息失败</string>
+    <string name="record_home_download_success">下载课程信息成功</string>
+    <string name="record_word_upload_failed">上传单词学习记录失败</string>
+    <string name="record_word_upload_success">上传单词学习记录成功</string>
+    <string name="register_captcha_hint">请输入验证码</string>
+    <string name="register_class_QQtitle">QQ</string>
+    <string name="register_class_codetitle">班级码</string>
+    <string name="register_class_completeImb">完     成</string>
+    <string name="register_class_editHint">请填写</string>
+    <string name="register_class_emailtitle">邮箱</string>
+    <string name="register_class_gradetitle">年级</string>
+    <string name="register_class_locationtitle">地区</string>
+    <string name="register_class_nikinametitle">昵称</string>
+    <string name="register_class_noname">请填入您的姓名</string>
+    <string name="register_class_parentemailtitle">家长邮箱</string>
+    <string name="register_class_parentnametitle">家长姓名</string>
+    <string name="register_class_parentphonetitle">家长电话</string>
+    <string name="register_class_registFailed">注册失败</string>
+    <string name="register_class_usernametitle">姓名(必填)</string>
+    <string name="register_class_usersextitle">性别</string>
+    <string name="register_class_whatcode">班级码是你的老师创建的班级ID码，询问你的老师获得班级码后便可加入该班级。</string>
+    <string name="register_confirm_password_hint">请确认密码</string>
+    <string name="register_scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="register_scaon_title">二维码扫描</string>
+    <string name="server_exception">服务器异常，请稍后再试！</string>
+    <string name="set_actionbar_main">设   置</string>
+    <string name="set_fragment_aboutus_emailtext">weibo@emodou.com</string>
+    <string name="set_fragment_aboutus_emailtitle">邮箱</string>
+    <string name="set_fragment_aboutus_locationtext">北京市海淀区大钟寺白塔庵5号3号楼102</string>
+    <string name="set_fragment_aboutus_locationtitle">地址</string>
+    <string name="set_fragment_aboutus_logotext">北京易魔豆教育科技有限公司</string>
+    <string name="set_fragment_aboutus_webtext">www.emodou.com</string>
+    <string name="set_fragment_aboutus_webtitle">网址</string>
+    <string name="set_fragment_aboutus_wechattext">易魔豆</string>
+    <string name="set_fragment_aboutus_wechattitle">微信</string>
+    <string name="set_fragment_aboutus_weibotext">易魔豆eModou</string>
+    <string name="set_fragment_aboutus_weibotitle">微博</string>
+    <string name="set_fragment_changepsd_confirm">确                    认</string>
+    <string name="set_fragment_changepsd_confirmpsd">请确认新密码</string>
+    <string name="set_fragment_changepsd_newpsd">请输入新密码</string>
+    <string name="set_fragment_changepsd_oldpsd">请输入旧密码</string>
+    <string name="set_fragment_feedback_commit">提         交</string>
+    <string name="set_fragment_feedback_edt">您的宝贵意见将成为我们不竭的动力!</string>
+    <string name="set_fragment_feedback_empty">输入不能为空</string>
+    <string name="set_fragment_font_bigbtn">大号</string>
+    <string name="set_fragment_font_bigtext_cn">人生艰难，但如果你有笑对人生的能力，你就有享受人生的能力。</string>
+    <string name="set_fragment_font_bigtext_en">Life is tough, but if you have the ability to laugh at it, you have the ability to enjoy it.</string>
+    <string name="set_fragment_font_middlebtn">中号</string>
+    <string name="set_fragment_font_middletext_cn">时光不能倒流。</string>
+    <string name="set_fragment_font_middletext_en">you can never turn back the clock.</string>
+    <string name="set_fragment_font_smallbtn">小号</string>
+    <string name="set_fragment_font_smalltext_cn">智慧不在于经历了多少，而在于从中领悟了多少。</string>
+    <string name="set_fragment_font_smalltext_en">Men are wise in proportion, not to their experience, but to their capacity for experience.</string>
+    <string name="set_fragment_font_title">调节字号大小</string>
+    <string name="set_fragment_mobile_change">更     换</string>
+    <string name="set_fragment_mobile_getpin">点击获取</string>
+    <string name="set_fragment_mobile_inputpin">请输入6位验证码</string>
+    <string name="set_fragment_mobile_mobile">请输入您的新手机号</string>
+    <string name="set_fragment_mobile_text1">更换手机号后，个人学习同步将会与新手机号绑定</string>
+    <string name="set_fragment_mobile_text2">当前手机号： </string>
+    <string name="set_fragment_normalqus_ans1_1">eModou移动英语学习平台旨在从教材出发，超越教材，从而帮助学生有重点有目标地学习，同时也帮助教师轻松教学。
+	学习内容：本产品拥有培生公司的官方授权，不仅包括教材内容，还有很多内部学习资料供学习者扩展、测试与提升。功能：</string>
+    <string name="set_fragment_normalqus_qus1">1.eModou移动英语学习平台中提供的学习包与教材</string>
+    <string name="set_fragment_push_text1">接受哪些推送通知</string>
+    <string name="set_fragment_push_text2">作业发布</string>
+    <string name="set_fragment_push_text3">我的提问得到解答</string>
+    <string name="set_fragment_push_text4">我的疑问被评为最佳答案</string>
+    <string name="set_fragment_push_text5">PK邀请</string>
+    <string name="set_fragment_wechat_text1">请扫描易魔豆微信二维码</string>
+    <string name="set_fragment_wechat_text2">或在微信中查找公众号：易魔豆</string>
+    <string name="set_list_aboutus_text">关于我们</string>
+    <string name="set_list_changepsd_text">修改密码</string>
+    <string name="set_list_download_text">仅在wifi时可以下载</string>
+    <string name="set_list_feedback_text">问题反馈</string>
+    <string name="set_list_font_text">字体大小设置</string>
+    <string name="set_list_mobile_text">更换手机号</string>
+    <string name="set_list_normalqus_text">常见问题</string>
+    <string name="set_list_push_text">推送消息设定</string>
+    <string name="set_list_speak_text">口语仅在wifi时可以打分</string>
+    <string name="set_list_update_text">检查更新</string>
+    <string name="set_list_wechat_text">关注微信</string>
+    <string name="word_changepackage_codeHint">请输入您的学习包激活码</string>
+    <string name="word_changepackage_complete">完整版</string>
+    <string name="word_changepackage_exp">体验版</string>
+    <string name="word_changepackage_loading">Loading...</string>
+    <string name="word_changepackage_nonetword">加载失败，请检查网络连接</string>
+    <string name="word_changepackage_nostart">刷新列表失败</string>
+    <string name="word_changepackage_title">学习包选择</string>
+    <string name="word_courselist_choicedtitle">已选择背词范围：</string>
+    <string name="word_courselist_learn">学  习</string>
+    <string name="word_courselist_learnedAll">您所选的课程单词已经全部学完,是否重新开始学习？</string>
+    <string name="word_courselist_nochoice">您没有选择任何课程进行学习！</string>
+    <string name="word_courselist_nowordtest">您当前选择的课程单词数为0！</string>
+    <string name="word_courselist_startlearn">选择好了，开始学习</string>
+    <string name="word_courselist_test">测  试</string>
+    <string name="word_detail_added">已添加到生词本，再次点击可从生词本中删除</string>
+    <string name="word_detail_deleted">已从生词本中删除， 再次点击可添加到生词本</string>
+    <string name="word_detail_first">您目前处于该列表的第一个单词</string>
+    <string name="word_detail_last">您目前处于该列表的最后一个单词,是否返回课程列表？</string>
+    <string name="word_detail_title">单词详情</string>
+    <string name="word_learn_dialog_return_time">您本次的学习时间是</string>
+    <string name="word_learn_dialog_return_timeMuch">您的学习时间太长了哦~</string>
+    <string name="word_learn_dialog_return_title">本次学习结果</string>
+    <string name="word_learn_easy">小菜一碟</string>
+    <string name="word_learn_fragment_reviewtxt">复习进度</string>
+    <string name="word_learn_fragment_studytxt">掌握程度</string>
+    <string name="word_learn_learnedAll">恭喜您，您已经学完所选课程的全部单词，请再接再厉！</string>
+    <string name="word_learn_remember">想起来了</string>
+    <string name="word_learn_stillForget">还是 ...\n没印象</string>
+    <string name="word_learn_title">单词学习</string>
+    <string name="word_learn_whatThis">这是 ...\n什么鬼</string>
+    <string name="word_main_booklearntime">28.5h</string>
+    <string name="word_main_bookname">高中英语01（必修）</string>
+    <string name="word_main_golist">进入背词列表</string>
+    <string name="word_main_new_text1">生词本</string>
+    <string name="word_main_new_text2">共0词</string>
+    <string name="word_main_nonetwork">您目前没有网络，请连接网络后再进行下载！</string>
+    <string name="word_main_nowifi">您当前处于非Wifi环境下，是否继续下载？</string>
+    <string name="word_main_prepare">资源准备中请稍后……</string>
+    <string name="word_main_thislearnedword">掌握870词</string>
+    <string name="word_main_thistotalword">共1203词</string>
+    <string name="word_main_totalcount">共掌握北师大学习包内单词1343个，用时40小时34分</string>
+    <string name="word_neword_delete">已从生词本中删除</string>
+    <string name="word_neword_last">您目前处于该列表的最后一个单词,是否返回生词本？</string>
+    <string name="word_neword_title">生词本</string>
+    <string name="word_prethd_mean">[释义]</string>
+    <string name="word_prethd_sentence">[例句]</string>
+    <string name="word_prethd_tense">[时态和比较级]</string>
+    <string name="word_search_inputCn">请输入中文</string>
+    <string name="word_search_inputEn">请输入英文</string>
+    <string name="word_search_noresult">查询无结果</string>
+    <string name="word_search_title">词典</string>
+    <string name="word_test_nextTv">继续测试</string>
+    <string name="word_test_restudyTv">重新学习</string>
+    <string name="word_test_result_leaveTv">暂时离开</string>
+    <string name="word_test_result_retestTv">重新测试</string>
+    <string name="word_test_result_rightAll">恭喜您，全部正确！</string>
+    <string name="word_test_result_rightRateTitle">正确率</string>
+    <string name="word_test_result_title">单词测试结果</string>
+    <string name="word_test_rightChoice">正确</string>
+    <string name="word_test_testAll">您已全部测试完！</string>
+    <string name="word_test_title">单词测试</string>
+    <string name="word_test_wrongChoice">错误</string>
+    <string name="word_wordlist_bookOrdered">已为您按照课本顺序排好</string>
+    <string name="word_wordlist_degreeOrdered">已为您按照掌握程度排好</string>
+    <string name="word_wordlist_noFamiWord">只剩下熟悉的词汇，您将没有选择的单词</string>
+    <string name="word_wordlist_noNotLearnWord">只剩下未学习的词汇，您将没有选择的单词</string>
+    <string name="word_wordlist_noUnfamiWord">只剩下陌生的词汇，您将没有选择的单词</string>
+    <string name="word_wordlist_noVagueWord">只剩下模糊的词汇，您将没有选择的单词</string>
+    <string name="word_wordlist_novoice">抱歉，该单词没有发音</string>
+    <string name="word_wordlist_radio1text">按字母顺序</string>
+    <string name="word_wordlist_radio2text">按课本顺序</string>
+    <string name="word_wordlist_slidingmenu_bookorder">课本顺序</string>
+    <string name="word_wordlist_slidingmenu_degreeorder">掌握程度</string>
+    <string name="word_wordlist_slidingmenu_familiar">熟悉</string>
+    <string name="word_wordlist_slidingmenu_notlearn">未学习</string>
+    <string name="word_wordlist_slidingmenu_order">排列顺序</string>
+    <string name="word_wordlist_slidingmenu_showword">显示词汇</string>
+    <string name="word_wordlist_slidingmenu_unfamiliar">陌生</string>
+    <string name="word_wordlist_slidingmenu_vague">模糊</string>
+    <string name="word_wordlist_slidingmenu_wordorder">字母顺序</string>
+    <string name="word_wordlist_startlean">开始学习</string>
+    <string name="word_wordlist_wordOrdered">已为您按照字母顺序排好</string>
+    <style name="AnimationFade">  
+  		<!-- PopupWindow左右弹出的效果 -->  
+	    <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>  
+	    <item name="android:windowExitAnimation">@anim/out_righttoleft</item>  
+	</style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CircularProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">#ffffffff</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style>
+    <style name="CircularProgressBarLight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">#aaa</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowBackground">@android:color/transparent</item> 
+    	<item name="android:windowNoTitle">true</item>    
+	</style>
+    <style name="MyTheme">
+    <item name="android:alertDialogStyle">@style/CustomDialogTheme</item>
+</style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="WordLearnReDialog" parent="@android:style/Theme.Dialog">     
+	     <item name="android:windowFrame">@null</item>
+	     <item name="android:windowIsFloating">true</item>
+         <item name="android:windowIsTranslucent">true</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:background">@drawable/word_learn_dialog_return_shape</item>
+         <item name="android:windowBackground">@android:color/transparent</item>
+         <item name="android:backgroundDimEnabled">true</item>
+
+	 </style>
+    <style name="actionbar_home">
+	    <item name="android:background">@color/actionbar_home</item>
+	    <item name="android:layout_height">60dp</item>
+	    <item name="android:layout_width">fill_parent</item>
+	</style>
+    <style name="home_changebook_bookitem_progressbar" parent="@android:style/Widget.ProgressBar.Horizontal">
+	    <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+	</style>
+    <style name="home_listen_seekbar" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/home_listen_seekbar_layout</item>
+    </style>
+    <style name="ptr_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/ptr_pulltorefresh_arrow</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+    <style name="ptr_header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ptr_headerContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0px</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="ptr_last_updated" parent="ptr_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_below">@+id/ptr_id_text</item>
+    </style>
+    <style name="ptr_spinner" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+    <style name="ptr_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="ptr_textwrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+</resources>

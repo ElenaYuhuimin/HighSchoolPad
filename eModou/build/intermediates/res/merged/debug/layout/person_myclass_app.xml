@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- 用户姓名 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_usernameRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_usernametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_usernametitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- 用户昵称 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_nikinameRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_usernameRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_nikinametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_nikinametitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editNikiname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- 地区 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_locationRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_nikinameRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_locationtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_locationtitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- QQ -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_QQRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_locationRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_QQtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_QQtitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editQQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- 邮箱 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_emailRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_QQRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_emailtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_emailtitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- 家长姓名 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_parentNameRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_emailRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_parentnametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_parentnametitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editParentname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   
+    <!-- 家长电话 -->
+   <RelativeLayout 
+        android:id="@+id/person_myclass_app_parentphoneRl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/person_myclass_app_parentNameRl">
+        
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="2dp" 
+            android:background="@color/home_listen_qus_item_darkline"
+            android:layout_alignParentBottom="true"/>
+        
+        <TextView 
+            android:id="@+id/person_myclass_app_parentphonetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/register_class_parentphonetitle"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        
+        <EditText 
+            android:id="@+id/person_myclass_app_editParentphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:layout_marginLeft="130dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/register_class_editHint"/>        
+	</RelativeLayout>
+	
+   <!-- 班级码对应的信息 -->
+   <TextView 
+       android:id="@+id/person_myclass_app_codeInfotitle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_parentphoneRl"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_codeinfotitle"/>
+   
+   <TextView 
+       android:id="@+id/person_myclass_app_schoolname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_codeInfotitle"
+       android:layout_marginTop="14dp" 
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_schoolname"/>
+   
+   <TextView 
+       android:id="@+id/person_myclass_app_grade"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_schoolname"
+       android:layout_marginTop="14dp" 
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_grade"/>
+   
+   <TextView 
+       android:id="@+id/person_myclass_app_classname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_grade"
+       android:layout_marginTop="14dp" 
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_classname"/>
+   
+    <TextView 
+       android:id="@+id/person_myclass_app_teachername"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_classname"
+       android:layout_marginTop="14dp" 
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_teachername"/>
+    
+    <TextView 
+       android:id="@+id/person_myclass_app_group"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp" 
+       android:layout_below="@id/person_myclass_app_teachername"
+       android:layout_marginTop="14dp" 
+       android:layout_marginLeft="20dp"
+       android:text="@string/person_myclass_app_group"/>
+    
+    <Button  
+        android:id="@+id/person_myclass_app_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/person_myclass_app_btn"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/set_fragment_mobile_getpin_selector"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/person_myclass_app_group"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
+
+</ScrollView>

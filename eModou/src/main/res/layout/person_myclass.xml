@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    
+	    <TextView 
+	        android:id="@+id/person_myclass_joinclass_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp" 
+	        android:text="@string/person_myclass_joinclass"
+	        android:textSize="20sp"
+	        android:paddingLeft="40dp" 
+	        android:textColor="#937b4f"
+	        android:gravity="center_vertical"
+	        android:background="@color/set_fragment_bcg"/>
+	    
+	    <RelativeLayout 
+	        android:id="@+id/person_myclass_joinclass_code"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/person_myclass_joinclass_title"
+	        android:background="@color/white">
+	        
+	        <RelativeLayout
+	            android:id="@+id/person_myclass_joinclass_Rl"
+	            android:layout_width="fill_parent"
+	            android:layout_height="80dp" >
+	            
+	            <TextView 
+		            android:id="@+id/person_myclass_joinclass_codetitle"
+		            android:layout_height="wrap_content"
+		            android:layout_width="wrap_content"
+		            android:text="@string/register_class_codetitle"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="40dp" 
+		            android:textSize="20sp"/>
+	        
+		         <ImageView 
+		            android:id="@+id/person_myclass_joinclass_scanimv"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:background="@drawable/register_class_scanimv_selector"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="60dp"/>
+	         
+		         <EditText 
+		            android:id="@+id/person_myclass_joinclass_codeEdt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="20sp" 
+		            android:layout_centerVertical="true"
+		            android:background="@null"
+		            android:hint="@string/register_class_editHint"
+		            android:layout_toLeftOf="@id/person_myclass_joinclass_scanimv"
+		            android:layout_marginRight="20dp"/>
+	        </RelativeLayout>
+	        
+	         
+	         <RelativeLayout 
+	             android:id="@+id/person_myclass_nextRl"
+	             android:layout_width="fill_parent"
+	             android:layout_height="80dp"
+	             android:layout_below="@id/person_myclass_joinclass_Rl"
+	             android:visibility="gone">
+	             
+	             <Button  
+	                 android:id="@+id/person_myclass_nextBtn"
+		             android:layout_width="120dp"
+		             android:layout_height="40dp"
+		             android:text="@string/person_myclass_nextstep"
+		             android:textSize="20sp"
+		             android:textColor="@color/white"
+		             android:background="@drawable/set_fragment_mobile_getpin_selector"
+		             android:layout_centerHorizontal="true"
+		             android:layout_centerVertical="true"/>
+	             
+	         </RelativeLayout>
+	         
+	         
+	    </RelativeLayout>
+	    
+	    
+	    <TextView 
+	        android:id="@+id/person_myclass_classhaved_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp" 
+	        android:text="@string/person_myclass_classhaved"
+	        android:textSize="20sp"
+	        android:paddingLeft="40dp" 
+	        android:textColor="#937b4f"
+	        android:gravity="center_vertical"
+	        android:background="@color/set_fragment_bcg"
+	        android:layout_below="@id/person_myclass_joinclass_code"/>
+	    
+	    <ListView 
+	        android:id="@+id/person_myclass_classhaved_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/person_myclass_classhaved_title"
+	        android:divider="#d7d7d7"
+	        android:dividerHeight="1dp"></ListView>
+	    
+	    <TextView 
+	        android:id="@+id/person_myclass_classApp_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp" 
+	        android:text="@string/person_myclass_classApp"
+	        android:textSize="20sp"
+	        android:paddingLeft="40dp" 
+	        android:textColor="#937b4f"
+	        android:gravity="center_vertical"
+	        android:background="@color/set_fragment_bcg"
+	        android:layout_below="@id/person_myclass_classhaved_list"/>
+	    
+	    <ListView 
+	        android:id="@+id/person_myclass_classApp_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/person_myclass_classApp_title"
+	        android:divider="#d7d7d7"
+	        android:dividerHeight="1dp"></ListView>
+    
+    </RelativeLayout>
+
+</ScrollView>

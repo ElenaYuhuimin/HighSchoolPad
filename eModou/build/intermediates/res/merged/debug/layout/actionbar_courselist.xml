@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/couselist_color"
+    android:background="@color/actionbar_home" >
+    
+    <ImageButton
+        android:id="@+id/courselist_imbtn_return"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/login_actionbar_back_selector"
+        android:layout_marginLeft="40dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/courselist_ancionbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="35sp" />
+      </RelativeLayout>
+    	
+       <!-- 单词主界面的删除图标 -->
+       <ImageButton
+	        android:id="@+id/courselist_imbtn_delete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@android:color/transparent"
+	        android:src="@drawable/home_courselist_delete_selector"
+	        android:layout_marginRight="40dp" />
+       
+       <!-- 单词单元列表界面界面的生词本和搜索图标 -->
+       <ImageView 
+           android:id="@+id/actionbar_courselist_searchimv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/home_courselist_search_selector"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="120dp"
+           android:visibility="gone"
+           android:clickable="true"/>
+       
+       <ImageView 
+           android:id="@+id/actionbar_courselist_newwordimv"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/home_courselist_newword_selector"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="40dp"
+           android:visibility="gone"
+           android:clickable="true"/>
+       
+       <!-- 单词查看界面的筛选图标 -->
+       <ImageButton
+           android:id="@+id/actionbar_courselist_filter"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/word_wordlist_filter_selector"
+           android:layout_alignParentRight="true" 
+           android:layout_centerVertical="true"
+           android:layout_marginRight="40dp"
+           android:visibility="gone"
+           android:clickable="true"/>
+
+</RelativeLayout>

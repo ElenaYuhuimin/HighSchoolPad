@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/person_rl">
+    
+    <!-- 个人bar -->
+    <TextView 
+        android:id="@+id/person_major__tvbar"
+        style="@style/actionbar_home"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" 
+        android:gravity="center"
+        android:text="@string/person_major_actionbar"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+    
+    <TextView 
+        android:id="@+id/person_major_baredit"
+        android:text="@string/person_major_baredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp" 
+        android:layout_marginTop="10dp" 
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:visibility="gone"/>
+    
+    <TextView
+        android:id="@+id/person_major_barcompelete"
+        android:text="@string/person_major_barcompelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp" 
+        android:layout_marginTop="10dp" 
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="40dp"
+        android:visibility="gone"
+        />
+    
+    <TextView 
+        android:id="@+id/person_major_barrefresh"
+        android:text="@string/person_major_barrefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp" 
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="40dp" />
+    
+    <!-- 左半部分的布局 -->
+    <RelativeLayout 
+        android:id="@+id/person_list_Rl"
+        android:layout_width="450dp" 
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:background="@color/white">
+        
+        <!-- 个人信息 -->
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:id="@+id/person_list_personInfo_rl">
+            
+            <ImageView 
+                android:id="@+id/person_list_personInfo_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true" 
+                android:background="@drawable/person_list_personinfo_icon"/>
+            
+            <TextView 
+                android:id="@+id/person_list_personInfo_text" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_list_personInfo_text"
+                 android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/person_list_personInfo_icon"/>
+            
+             <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignLeft="@id/person_list_personInfo_text"
+                android:layout_alignParentBottom="true"/>
+             
+             <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 我的班级 -->
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:id="@+id/person_list_myclass_rl"
+            android:layout_below="@id/person_list_personInfo_rl">
+            
+            <ImageView 
+                android:id="@+id/person_list_myclass_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true" 
+                android:background="@drawable/person_list_myclass_icon"/>
+            
+            <TextView 
+                android:id="@+id/person_list_myclass_text" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_list_myclass_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/person_list_myclass_icon"/>
+            
+             <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignLeft="@id/person_list_myclass_text"
+                android:layout_alignParentBottom="true"/>
+             
+             <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 个性化统计 -->
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:id="@+id/person_list_count_rl"
+            android:layout_below="@id/person_list_myclass_rl">
+            
+            <ImageView 
+                android:id="@+id/person_list_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true" 
+                android:background="@drawable/person_list_count_icon"/>
+            
+            <TextView 
+                android:id="@+id/person_list_count_text" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_list_count_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/person_list_count_icon"/>
+            
+             <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignLeft="@id/person_list_count_text"
+                android:layout_alignParentBottom="true"/>
+             
+             <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+     <!-- 两个面板之间的线 -->
+    <View
+        android:id="@+id/person_line"
+        android:layout_width="3dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/person_list_Rl"
+        android:background="#c9d2d6" >
+    </View>
+    
+     <!-- 右半部分面板 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/person_line"
+        android:background="@color/white" >
+        
+        <FrameLayout 
+            android:id="@+id/person_major_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

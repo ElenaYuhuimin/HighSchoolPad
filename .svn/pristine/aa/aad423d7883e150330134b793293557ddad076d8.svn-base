@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <ImageView 
+        android:id="@+id/set_fragment_aboutus_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/set_fragment_aboutus_icon"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/set_fragment_aboutus_logo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/set_fragment_aboutus_logo"
+        android:layout_below="@id/set_fragment_aboutus_icon"
+        android:layout_marginTop="50dp"/>
+    
+    <TextView 
+        android:id="@+id/set_fragment_aboutus_logotext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/set_fragment_aboutus_logotext"
+        android:textColor="@color/set_list_text"
+        android:textSize="26sp"
+        android:layout_toRightOf="@id/set_fragment_aboutus_logo"
+        android:layout_alignBottom="@id/set_fragment_aboutus_logo"
+        android:layout_marginLeft="20dp"/>
+    
+    <!-- 网址 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_aboutus_webrl"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/set_fragment_aboutus_logo"
+        android:layout_alignLeft="@id/set_fragment_aboutus_logo">
+        
+        <ImageView 
+	        android:id="@+id/set_fragment_aboutus_web"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"     
+	        android:background="@drawable/set_fragment_aboutus_web"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_webtitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_webtitle"
+	        android:textColor="@color/set_fragment_aboutus_title" 
+	        android:layout_toRightOf="@id/set_fragment_aboutus_web"
+	        android:layout_marginLeft="20dp"
+	        android:textSize="26sp"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_webtext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_webtext"
+	        android:textColor="@color/set_list_text"
+	        android:textSize="26sp"
+	        android:layout_toRightOf="@id/set_fragment_aboutus_webtitle"
+	        android:layout_marginLeft="40dp"
+	        android:layout_centerVertical="true"/>
+	    
+	    <View 
+	        android:id="@+id/set_fragment_aboutus_line1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignLeft="@id/set_fragment_aboutus_webtext"
+	        android:layout_marginRight="60dp"
+	        android:background="@color/set_fragment_push_line"/>       
+    </RelativeLayout>
+    
+    
+    <!-- 邮箱 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_aboutus_emailrl"
+        android:layout_below="@id/set_fragment_aboutus_webrl"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/set_fragment_aboutus_logo">
+        
+        <ImageView 
+	        android:id="@+id/set_fragment_aboutus_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"     
+	        android:background="@drawable/set_fragment_aboutus_email"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_emailtitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_emailtitle"
+	        android:textColor="@color/set_fragment_aboutus_title" 
+	        android:layout_toRightOf="@id/set_fragment_aboutus_email"
+	        android:layout_marginLeft="20dp"
+	        android:textSize="26sp"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_emailtext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_emailtext"
+	        android:textColor="@color/set_list_text"
+	        android:textSize="26sp"
+	        android:layout_toRightOf="@id/set_fragment_aboutus_emailtitle"
+	        android:layout_marginLeft="40dp"
+	        android:layout_centerVertical="true"/>
+	    
+	    <View 
+	        android:id="@+id/set_fragment_aboutus_line2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignLeft="@id/set_fragment_aboutus_emailtext"
+	        android:layout_marginRight="60dp"
+	        android:background="@color/set_fragment_push_line"/>       
+    </RelativeLayout>
+    
+    <!-- 地址 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_aboutus_locationrl"
+        android:layout_below="@id/set_fragment_aboutus_emailrl"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/set_fragment_aboutus_logo">
+        
+        <ImageView 
+	        android:id="@+id/set_fragment_aboutus_location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"     
+	        android:background="@drawable/set_fragment_aboutus_location"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_locationtitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_locationtitle"
+	        android:textColor="@color/set_fragment_aboutus_title" 
+	        android:layout_toRightOf="@id/set_fragment_aboutus_location"
+	        android:layout_marginLeft="20dp"
+	        android:textSize="26sp"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_locationtext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_locationtext"
+	        android:textColor="@color/set_list_text"
+	        android:textSize="26sp"
+	        android:layout_toRightOf="@id/set_fragment_aboutus_locationtitle"
+	        android:layout_marginLeft="40dp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="80dp"/>
+	    
+	    <View 
+	        android:id="@+id/set_fragment_aboutus_line3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignLeft="@id/set_fragment_aboutus_locationtext"
+	        android:layout_marginRight="60dp"
+	        android:background="@color/set_fragment_push_line"/>       
+    </RelativeLayout>
+    
+    
+    
+    
+    <!-- 微信 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_aboutus_wechatrl"
+        android:layout_below="@id/set_fragment_aboutus_locationrl"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/set_fragment_aboutus_logo">
+        
+        <ImageView 
+	        android:id="@+id/set_fragment_aboutus_wechat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"     
+	        android:background="@drawable/set_fragment_aboutus_wechat"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_wechattitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_wechattitle"
+	        android:textColor="@color/set_fragment_aboutus_title" 
+	        android:layout_toRightOf="@id/set_fragment_aboutus_wechat"
+	        android:layout_marginLeft="20dp"
+	        android:textSize="26sp"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_wechattext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_wechattext"
+	        android:textColor="@color/set_list_text"
+	        android:textSize="26sp"
+	        android:layout_toRightOf="@id/set_fragment_aboutus_wechattitle"
+	        android:layout_marginLeft="40dp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="80dp"/>
+	    
+	    <View 
+	        android:id="@+id/set_fragment_aboutus_line4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignLeft="@id/set_fragment_aboutus_wechattext"
+	        android:layout_marginRight="60dp"
+	        android:background="@color/set_fragment_push_line"/>       
+    </RelativeLayout>
+    
+    
+    <!-- 微博 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_aboutus_weiborl"
+        android:layout_below="@id/set_fragment_aboutus_wechatrl"
+        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/set_fragment_aboutus_logo">
+        
+        <ImageView 
+	        android:id="@+id/set_fragment_aboutus_weibo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"     
+	        android:background="@drawable/set_fragment_aboutus_weibo"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_weibotitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_weibotitle"
+	        android:textColor="@color/set_fragment_aboutus_title" 
+	        android:layout_toRightOf="@id/set_fragment_aboutus_weibo"
+	        android:layout_marginLeft="20dp"
+	        android:textSize="26sp"
+	        android:layout_centerVertical="true"/>
+    
+	    <TextView 
+	        android:id="@+id/set_fragment_aboutus_weibotext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_aboutus_weibotext"
+	        android:textColor="@color/set_list_text"
+	        android:textSize="26sp"
+	        android:layout_toRightOf="@id/set_fragment_aboutus_weibotitle"
+	        android:layout_marginLeft="40dp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="80dp"/>
+	    
+	    <View 
+	        android:id="@+id/set_fragment_aboutus_line5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignLeft="@id/set_fragment_aboutus_weibotext"
+	        android:layout_marginRight="60dp"
+	        android:background="@color/set_fragment_push_line"/>       
+    </RelativeLayout>
+    
+
+</RelativeLayout>

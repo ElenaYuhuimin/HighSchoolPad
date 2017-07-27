@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="#f5f5f5">
+    
+    <!-- 上半部分的布局 -->
+    <LinearLayout
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        
+        <!-- 首页的logo图标 -->
+        <ImageView       
+            android:src="@drawable/login_img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="10dp"/>
+        
+        <!-- 灰色细线 -->
+        <ImageView 
+            android:src="@drawable/login_img_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            />
+     	
+        <!-- 账号、密码、按钮布局 -->
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+           
+            <!-- 账号密码布局 -->
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_white"
+                android:orientation="vertical">
+                
+                
+                <!-- 账号文本框  -->
+	            <EditText
+		            android:id="@+id/login_phonemail"
+		            android:layout_width="match_parent"
+		            android:layout_height="60dp"
+		            android:textColorHint="#a0a0a0"
+		            android:drawableLeft="@drawable/login_img_phone"
+		            android:paddingLeft ="14dp"		        
+		            android:drawablePadding = "14dp"
+		            android:background="@null"
+		            android:ems="10"
+		            android:hint="@string/login_id_hint"
+		            android:singleLine="true"
+		            android:textSize="20sp" >
+		         </EditText>
+	        
+				<!-- 两个文本框之间的线颜色 -->
+	            <View 
+		             android:layout_width="match_parent"
+		             android:layout_height="0.5dp"
+		             android:background="#e1e1e1"
+	            />
+	        	
+	            <!-- 密码文本框 -->
+	         	<EditText
+	             	 android:id="@+id/login_password"
+	            	 android:layout_width="match_parent"
+	           		 android:layout_height="60dp"
+	            	 android:textColorHint="#a0a0a0"
+	               	 android:drawableLeft="@drawable/login_img_password"
+	                 android:paddingLeft ="14dp"
+	                 android:drawablePadding = "14dp"
+	                 android:background="@null"
+	                 android:ems="10"
+	                 android:hint="@string/login_password_hint"
+	            	 android:inputType="textPassword"
+	          	     android:singleLine="true"
+	           		 android:textSize="20sp" >
+	           	</EditText>
+	           	
+            </LinearLayout>
+            
+         	<!-- 忘记密码 -->
+         	<Button
+            	 android:id="@+id/login_ForgetPassword"
+            	 android:layout_width="wrap_content"
+             	 android:layout_height="18dp"
+				 android:layout_gravity="right"
+				 android:layout_marginTop="22dp"
+				 android:layout_marginBottom="22dp"				 
+            	 android:background="@drawable/login_img_forgetpassword">
+            </Button>
+            
+         	<!-- 登陆和注册按钮布局 -->
+         	<LinearLayout 
+         	    android:layout_width="fill_parent"
+         	    android:layout_height="wrap_content"
+         	    android:orientation="horizontal">
+         	    
+         	    <!-- 登陆按钮 -->
+         	    <Button 
+         	        android:id="@+id/login_button_login"
+         	        android:layout_width="wrap_content"
+         	    	android:layout_height="wrap_content"
+         	        android:background="@drawable/login_button_login_selector"
+         	        android:text="@string/login_button_login_text"
+         	        android:textSize="20sp"
+         	        android:textColor="#047a52"
+         	        android:layout_weight="2">
+         	    </Button>
+         	    
+         	    <!-- 注册按钮 -->
+         	     <Button 
+         	        android:id="@+id/login_button_register"
+         	        android:background="@drawable/login_button_register_selector"
+         	        android:layout_weight="1"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:text="@string/login_button_register_text"
+         	        android:textSize="20sp"
+         	        android:textColor="#9a7a23"
+         	        android:layout_marginLeft="10dp">
+         	    </Button>
+
+         	</LinearLayout>
+           
+        </LinearLayout>
+     
+     </LinearLayout>
+     
+    <!-- 下半部分的布局,亦教亦乐 -->
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:background="@drawable/login_img_happy"
+         android:orientation="horizontal"
+         android:layout_marginTop="120dp">
+     </LinearLayout>
+    
+
+</LinearLayout>

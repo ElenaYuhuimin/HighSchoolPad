@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set_fragment_bcg" >
+    
+	
+	
+	<RelativeLayout 
+	    android:id="@+id/myclass_workdetail_Rl"
+	    android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/myclass_workdetail_needshape"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginRight="20dp"
+	    android:visibility="gone">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16sp"
+	        android:text="@string/myclass_workdetail_needtitle"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="5dp"/>
+	    
+	    <View 
+	        android:id="@+id/myclass_workdetail_line"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@color/actionbar_home"
+	        android:layout_marginTop="30dp"/>
+	    
+	    
+	     <TextView 
+	        android:id="@+id/myclass_workdetail_needbook"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+	        android:layout_centerHorizontal="true" 
+	        android:layout_below="@id/myclass_workdetail_line"
+	        android:layout_marginTop="10dp"
+	        android:text="null"/>
+	     
+	     <View 
+	         android:layout_height="20dp" 
+	         android:layout_width="fill_parent"
+	         android:layout_below="@id/myclass_workdetail_needbook"/>
+	</RelativeLayout>
+	
+	<ListView
+	    android:id="@+id/myclass_workdetail_lv"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:divider="@color/courselist_class_divider"
+	    android:dividerHeight="1dp"
+	    android:layout_marginLeft="10dp" 
+	    android:layout_toLeftOf="@id/myclass_workdetail_Rl"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"></ListView>
+</RelativeLayout>

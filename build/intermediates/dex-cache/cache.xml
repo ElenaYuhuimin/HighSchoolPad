@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/library-2.4.0_074d340fdfe23d3bcf8039868e7063ff6860285d.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/zxing.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/zxing_03d116ae981aac731133772ba7b428753b50c7aa.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_dd6eab323bea3f14b36caad96da29aeba930b89c.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/fresco-v0.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a966d8a08abe95ae5a87b5a4b9d7d96c7debfb42">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/fresco-v0.9.0_9a88b051da8e419a942f44ef00d3faa5d1a6215f.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/slidingMenu/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f148afbdfc29cd8508802bc5285577e6fb30284d">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-slidingMenu-unspecified_ca7d9305a3c4a010304c0e0ca48f72eab8218b92.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/okhttp-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/okhttp-2.6.0_2ab4462f92e2724fc5983e2ecbc2aac9b561c17a.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/imagepipeline-v0.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7ac5b69890de01df12aecae6adf3728e0f763e0d">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/imagepipeline-v0.9.0_c79455d2bd02ca26cf3f94e8f16a2ee2d9de38ef.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/Msc.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="355ee52884a2192e9102c3374e425e9b2cc1cad7">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/Msc_c8fd0cbd988bd1e2ee6343ef4a3ef871fdaac49a.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/imagepipeline-okhttp-v0.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8aee68c805ed4b8c1ea2405aedb21a5fdbf8d05e">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/imagepipeline-okhttp-v0.9.0_0c5b1044edbc661e27a93fa81fa1f1ee7df71401.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/xutils/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="448d634c782be0560f676261957c979640ae7d17">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-xutils-unspecified_c8bda6fcbf339baaac2da4e0f4657241ee441c72.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/kjframe-2.5.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8d1a2b1e45023d912661bf58e0ff3a016a3e2651">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/kjframe-2.5.5_711985064f13a3d54bc380be7c61fa53dbe8a7d2.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/Sunflower.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dff4cbacac1991b2a648af891462e559b497618">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/Sunflower_e1fd415351f53dbf574416a886a828d1989749de.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/holocircle/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="122e40cd95c57ac41b1d24dc1bb25f9f05acf5f2">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-holocircle-unspecified_98ad08579f73ac52d8d05bf78e7d119be1fd6ee9.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/swipemenulistview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a4e00e327d15e38ee231296988799330ae7d4ad1">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-swipemenulistview-unspecified_ef3f937597f902a37047cafa3750b01a2e2474db.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/pullToRefreshListView/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9857df2b9b1347537a9d0eb51d31268077d59feb">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-pullToRefreshListView-unspecified_ee64e084680af512410ce8c4de22da90e378e28a.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gson-2.6.2_d34736de6ea70cb90db2822ab870dedf37210b29.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_e2c982d62382a680db566911aeeefc05c4bdfa11.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/drawee-v0.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bc55ad41e2642741536d2ae474e02343f3e2b182">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/drawee-v0.9.0_93015ce483cf4d0b4e855ea33a5f8b69e5e88943.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/support-v4-19.1.0_5bc71e291678a0894c15cac5e87382ff7bfab351.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/viewpagerindicator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b218ff02176aada6c8f7a58be640b3e07c8ebe7e">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/gaozhong-viewpagerindicator-unspecified_a50e0895dfd71a0a02e52b6f775aea91c8b1ceb1.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/fbcore-v0.9.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8efc624a608fc1cdfc9fb8db8360aea2ea4858dd">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/fbcore-v0.9.0_60dfb27f5c31777b50a05476fb8f8fc285cc7c18.jar" />
+    </item>
+    <item
+        jar="/Users/maixin/emodouSvnVersion/gaozhong/eModou/libs/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/pre-dexed/debug/okio-1.6.0_82971a81558bc9a988a03a46ec253fc9b66b42fc.jar" />
+    </item>
+
+</items>

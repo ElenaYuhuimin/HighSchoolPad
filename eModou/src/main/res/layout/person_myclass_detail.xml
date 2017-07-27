@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <!-- 班级码 -->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_crIdRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp">
+      	    
+      	    
+      	    <TextView 
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:text="@string/person_myclass_detail_classroomid"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentLeft="true"
+      	        android:layout_centerVertical="true"
+      	        android:layout_marginLeft="20dp"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_crId"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	     <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout> 
+      	
+      	<!-- 学习包 -->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_packageRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_crIdRl">
+      	    
+      	    
+      	    <TextView 
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:text="@string/person_myclass_detail_package"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentLeft="true"
+      	        android:layout_centerVertical="true"
+      	        android:layout_marginLeft="20dp"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_package"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	     <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout> 
+      	
+      	<!-- 学校名称 -->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_schoolNameRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_packageRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_schoolname"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_schoolname"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!-- 班级名称 -->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_classroomNameRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_schoolNameRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_classname"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_classroomName"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!--年级-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_gradeNameRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_classroomNameRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_grade"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_grade"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!--班级创建时间-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_createTimeRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_gradeNameRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_teachername"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_createTime"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	
+      	<!--正在进行作业数-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_workDoingRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_createTimeRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_workDoing"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_workDoing"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!--已完成作业数-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_workDoneRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_workDoingRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_workDone"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_workDone"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!--提问数-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_questionRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_workDoneRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_Question"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_question"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!--答疑数-->
+      	<RelativeLayout 
+      	    android:id="@+id/person_myclass_detail_answerRl"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="50dp"
+      	    android:layout_below="@id/person_myclass_detail_questionRl">
+      	    
+      	    <TextView
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp" 
+      	        android:layout_marginLeft="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:text="@string/person_myclass_detail_Answer"/>
+      	    
+      	    <TextView 
+      	        android:id="@+id/person_myclass_detail_answer"
+      	        android:layout_width="wrap_content"
+      	        android:layout_height="wrap_content"
+      	        android:textSize="20sp"
+      	        android:layout_alignParentRight="true"
+      	        android:layout_marginRight="20dp"
+      	        android:layout_centerVertical="true"
+      	        android:textColor="@color/home_listen_qusresult_darktext"/>
+      	    
+      	    <View 
+	            android:layout_width="fill_parent"
+	            android:layout_height="2dp" 
+	            android:background="@color/home_listen_qus_item_darkline"
+	            android:layout_alignParentBottom="true"/>
+      	</RelativeLayout>
+      	
+      	<!-- 退出班级 -->
+      	<RelativeLayout 
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="80dp"
+      	    android:layout_below="@id/person_myclass_detail_answerRl">
+      	    
+      	    <Button  
+		        android:id="@+id/person_myclass_detail_leaveBtn"
+		        android:layout_width="160dp"
+		        android:layout_height="40dp"
+		        android:text="@string/person_myclass_detail_leave"
+		        android:textSize="20sp"
+		        android:textColor="@color/white"
+		        android:background="@drawable/set_fragment_mobile_getpin_selector"
+		        android:layout_centerInParent="true"  />
+      	</RelativeLayout>
+      	
+      	
+      	
+    </RelativeLayout>
+
+</ScrollView>

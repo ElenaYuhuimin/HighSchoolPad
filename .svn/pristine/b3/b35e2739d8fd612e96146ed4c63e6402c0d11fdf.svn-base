@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.emodou.extend.FlipLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_newordlist_item_fliplayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true">
+        
+        <ImageView 
+            android:id="@+id/word_newordlist_item_findlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/word_neword_findlabel"/>
+        
+        <TextView 
+		    android:id="@+id/word_newordlist_item_wordname"
+		    android:text="成功"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="30sp"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="150dp"/>
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp" 
+	    android:background="@color/actionbar_word"
+	    android:visibility="gone">
+	    
+	    <TextView 
+	        android:id="@+id/word_newordlist_mean"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="30sp"
+	        android:text="meaning"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:layout_marginLeft="80dp"
+	        android:layout_centerVertical="true"
+	        android:textColor="@color/white"
+	        android:layout_marginRight="100dp"/>
+	    
+	    <ImageView 
+	        android:id="@+id/word_newordlist_check"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:background="@drawable/word_wordlist_check_selector"
+	        android:layout_centerVertical="true"/>
+	    
+	</RelativeLayout>
+	
+</com.emodou.extend.FlipLayout>

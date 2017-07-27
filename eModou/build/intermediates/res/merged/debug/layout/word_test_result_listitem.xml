@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    
+    <TextView 
+        android:id="@+id/word_test_result_listItem_wordname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wordname"
+        android:textSize="20sp" 
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"/>
+    
+    <TextView
+        android:id="@+id/word_test_result_listItem_wrongNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="错5次"
+        android:textSize="20sp" 
+        android:layout_centerVertical="true" 
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"/>
+    
+	<ImageView
+	    android:id="@+id/word_test_result_listItem_added"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/word_test_result_listitem_added"
+	    android:layout_centerVertical="true" 
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="40dp"
+	    android:visibility="gone"/>
+	
+	<ImageView
+	    android:id="@+id/word_test_result_listItem_notadd"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/word_test_result_listitem_notadd"
+	    android:layout_centerVertical="true" 
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="40dp"/>
+	
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+	<RelativeLayout 
+	    android:id="@+id/word_test_result_progressRl"
+	    android:layout_width="424dp"
+	    android:layout_height="fill_parent">
+        
+	    <TextView 
+             android:id="@+id/word_test_result_rightRateTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/word_test_result_rightRateTitle"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="10dp"
+             android:textSize="20sp"/>
+	    
+	    
+         <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+            android:id="@+id/word_main_cirprogress"
+            android:layout_width="300dp"
+            android:layout_height="300dp" 
+            android:layout_centerHorizontal="true" 
+            android:layout_centerVertical="true"
+            android:background="@drawable/word_main_cirprogress"/>      
+         
+         
+         <TextView 
+             android:id="@+id/word_test_result_rightRateNum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="25%"
+             android:layout_centerHorizontal="true"
+             android:textSize="35sp"
+             android:layout_marginTop="324dp"/>
+         
+         <TextView
+             android:id="@+id/word_test_result_rightNumTv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="正确单词数：5"
+             android:textSize="25sp" 
+             android:layout_alignParentBottom="true"
+             android:layout_marginBottom="100dp"
+             android:layout_centerHorizontal="true"/>
+         
+         <TextView 
+             android:id="@+id/word_test_result_wrongNumTv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="错误单词数: 10"
+             android:textSize="25sp" 
+             android:layout_alignParentBottom="true"
+             android:layout_marginBottom="60dp"
+             android:layout_centerHorizontal="true"/>
+             
+             
+    </RelativeLayout>
+    
+	<View
+	    android:id="@+id/word_test_result_line1"
+	    android:layout_height="fill_parent"
+	    android:layout_width="2dp" 
+	    android:background="@color/courselist_class_divider"
+	    android:layout_toRightOf="@id/word_test_result_progressRl"/>
+	
+	<RelativeLayout 
+	    android:id="@+id/word_test_result_listRl"
+	    android:layout_width="700dp"
+	    android:layout_height="fill_parent"
+	    android:layout_toRightOf="@id/word_test_result_line1">
+	    
+	    <ListView 
+	        android:id="@+id/word_test_result_list"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:divider="@color/courselist_class_divider"
+	        android:dividerHeight="2dp"></ListView>
+	    
+	    <TextView 
+	        android:id="@+id/word_test_result_rightAll"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/word_test_result_rightAll"
+	        android:textSize="35sp" 
+	        android:layout_centerInParent="true"
+	        android:visibility="gone"/>
+	</RelativeLayout>
+	
+	<View
+	    android:id="@+id/word_test_result_line2"
+	    android:layout_height="fill_parent"
+	    android:layout_width="2dp" 
+	    android:background="@color/courselist_class_divider"
+	    android:layout_toRightOf="@id/word_test_result_listRl"/>
+	
+	 <RelativeLayout 
+            android:id="@+id/word_test_result_uploadRl"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/home_listen_qusresult_gotonextwork_selector"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+            
+            <ImageView 
+                android:id="@+id/word_test_result_uploadImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_listen_qusresult_tonextwork_icon"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_test_result_uploadTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_listen_qusResult_tonextwork_text"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/word_test_result_uploadImv"/>
+        </RelativeLayout>
+	
+	<LinearLayout 
+	    android:id="@+id/word_test_result_buttonRl"
+	    android:layout_height="fill_parent"
+	    android:layout_width="150dp"
+	    android:orientation="vertical"
+	    android:layout_toRightOf="@id/word_test_result_line2"
+	    android:layout_alignParentRight="true">
+	    
+	    <RelativeLayout 
+            android:id="@+id/word_test_result_leaveRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_test_result_leaveImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_test_result_leave_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_test_result_leaveTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_test_result_leaveTv"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_test_result_leaveImv"
+                android:layout_alignRight="@id/word_test_result_leaveImv"
+                android:layout_below="@id/word_test_result_leaveImv"
+                android:layout_marginTop="20dp"/>
+            
+            <View 
+	            android:layout_height="2dp"
+	            android:layout_width="fill_parent"
+	            android:background="@color/courselist_class_divider"
+	            android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_result_retestRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_test_result_retestImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_courselist_test_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_test_result_retestTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_test_result_retestTv"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_test_result_retestImv"
+                android:layout_alignRight="@id/word_test_result_retestImv"
+                android:layout_below="@id/word_test_result_retestImv"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout> 
+	</LinearLayout>
+</RelativeLayout>

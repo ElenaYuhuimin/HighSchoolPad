@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+    <fragment 
+        android:id="@+id/word_learn_activity_fragment"
+        android:layout_width="1100dp"
+        android:layout_height="fill_parent"
+        android:name="com.emodou.home.WordLearnFragment"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginLeft="20dp" 
+        android:layout_marginRight="10dp"/>
+    
+    
+    
+    <LinearLayout 
+        android:id="@+id/word_learn_activity_firstLl"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/word_learn_activity_fragment">
+        
+        <RelativeLayout 
+            android:id="@+id/word_learn_activity_whatThisRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_learn_activity_whatThisImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_learn_heart_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_learn_activity_whatThisTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_learn_whatThis"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_learn_activity_whatThisImv"
+                android:layout_alignRight="@id/word_learn_activity_whatThisImv"
+                android:layout_below="@id/word_learn_activity_whatThisImv"
+                android:layout_marginTop="20dp"/>
+            
+            <View 
+	            android:layout_height="2dp"
+	            android:layout_width="fill_parent"
+	            android:background="@color/courselist_class_divider"
+	            android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_learn_activity_EasyRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_learn_activity_easyImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_learn_easy_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_learn_activity_easyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_learn_easy"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_learn_activity_easyImv"
+                android:layout_alignRight="@id/word_learn_activity_easyImv"
+                android:layout_below="@id/word_learn_activity_easyImv"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/word_learn_activity_secondLl"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/word_learn_activity_fragment"
+        android:visibility="gone">
+        
+        <RelativeLayout 
+            android:id="@+id/word_learn_activity_stillForgetRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_learn_activity_stillForgetImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_learn_heart_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_learn_activity_stillForgetTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_learn_stillForget"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_learn_activity_stillForgetImv"
+                android:layout_alignRight="@id/word_learn_activity_stillForgetImv"
+                android:layout_below="@id/word_learn_activity_stillForgetImv"
+                android:layout_marginTop="20dp"/>
+            
+            <View 
+	            android:layout_height="2dp"
+	            android:layout_width="fill_parent"
+	            android:background="@color/courselist_class_divider"
+	            android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_learn_activity_RememberRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/word_learn_rightbtnbcg_selector">
+            
+            <ImageView 
+                android:id="@+id/word_learn_activity_rememberImv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/word_learn_remember_selector"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"/>
+            
+            <TextView 
+                android:id="@+id/word_learn_activity_rememberTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word_learn_remember"
+                android:textSize="22sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@id/word_learn_activity_rememberImv"
+                android:layout_alignRight="@id/word_learn_activity_rememberImv"
+                android:layout_below="@id/word_learn_activity_rememberImv"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/word_learn_activity_nextwordRl"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/word_learn_activity_fragment"
+        android:background="@drawable/word_learn_rightbtnbcg_selector"
+        android:visibility="gone">
+        
+        <ImageView 
+            android:id="@+id/word_learn_activity_nextword"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/word_prethd_next_selector"
+            android:layout_centerInParent="true"
+            android:duplicateParentState="true"/>
+    </RelativeLayout>
+    <View 
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/word_learn_activity_firstLl"
+        android:background="@color/courselist_class_divider"/>
+    
+    <View 
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/word_learn_activity_secondLl"
+        android:background="@color/courselist_class_divider"/>
+    
+   
+
+</RelativeLayout>

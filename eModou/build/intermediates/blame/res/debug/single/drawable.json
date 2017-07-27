@@ -1,0 +1,582 @@
+[
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/viewpagerindicator/unspecified/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_myvoice_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_myvoice_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_easy_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_easy_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_speak_downloading_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_speak_downloading_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_read_downloading_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_read_downloading_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_listen_downloading_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_listen_downloading_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_record_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_record_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_changepackage_item_buy_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_changepackage_item_buy_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/blue_bloder_btton_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/blue_bloder_btton_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_listen_downloaded_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_listen_downloaded_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_prethd_next_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_prethd_next_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/login_actionbar_back_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/login_actionbar_back_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_dialog_return_continue_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_dialog_return_continue_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_test_activity_restudy_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_test_activity_restudy_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qusresult_btnbcg_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qusresult_btnbcg_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_seekbar_layout.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_seekbar_layout.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/tab_main_learndata_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/tab_main_learndata_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_uploadno_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_uploadno_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qusresult_returncourselist_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qusresult_returncourselist_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_progress_read.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_progress_read.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_notlearn_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_notlearn_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_qusfootview_imvclick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_qusfootview_imvclick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_courselist_test_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_courselist_test_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_courselist_startlearn_unlick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_courselist_startlearn_unlick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qus_test_item_choice_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qus_test_item_choice_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_button_protocol_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_button_protocol_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_courselist_startlean_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_courselist_startlean_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_background_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_background_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_mobile_getpin_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_mobile_getpin_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_check_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_check_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_delete_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_delete_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/login_button_register_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/login_button_register_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_test_choose_fragment_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_test_choose_fragment_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qus_test_qusfootview_imvselector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qus_test_qusfootview_imvselector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_filter_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_filter_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qus_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qus_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_font_text_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_font_text_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qusresult_reviewwrong_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qusresult_reviewwrong_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/myclass_major_homeworkimv_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/myclass_major_homeworkimv_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/tab_main_home_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/tab_main_home_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_courselist_startlearn_click.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_courselist_startlearn_click.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/myclass_workdetail_needshape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/myclass_workdetail_needshape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_read_download_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_read_download_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_pause_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_pause_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_mbtn_unclick_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_mbtn_unclick_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_bookprogress.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_bookprogress.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_blue_top.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_blue_top.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_button_register_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_button_register_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_hint_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_hint_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_qusfootview_imvunclick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_qusfootview_imvunclick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_green_btnck.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_green_btnck.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_downloadall_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_downloadall_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_button_getcapt_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_button_getcapt_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_font_titlebtn_pressed_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_font_titlebtn_pressed_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_changepsd_forget_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_changepsd_forget_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_newword_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_newword_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/login_button_login_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/login_button_login_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_laba_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_laba_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_read_downloaded_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_read_downloaded_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_presec_forget_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_presec_forget_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_mobile_getpin_click.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_mobile_getpin_click.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_progress_circle_click_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_progress_circle_click_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_qusfootview_imvselector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_qusfootview_imvselector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_heart_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_heart_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_progress_listen.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_progress_listen.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_play_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_play_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_rightbtnbcg_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_rightbtnbcg_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_presec_sentence_layer.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_presec_sentence_layer.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_main_new_rlbcg_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_main_new_rlbcg_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/tab_main_discovery_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/tab_main_discovery_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_changebook_progress_layer.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_changebook_progress_layer.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_class_havecode_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_class_havecode_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_main_find_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_main_find_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_listen_download_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_listen_download_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/myclass_major_msgimv_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/myclass_major_msgimv_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_class_scanimv_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_class_scanimv_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_blueck.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_blueck.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_wechat_concern_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_wechat_concern_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_speak_downloaded_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_speak_downloaded_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_test_result_leave_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_test_result_leave_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_progress_word.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_progress_word.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_main_go_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_main_go_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_font_titlebtn_unpressed_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_font_titlebtn_unpressed_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qusresult_gotonextwork_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qusresult_gotonextwork_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_remember_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_remember_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_mbtn_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_mbtn_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_unfamiliar_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_unfamiliar_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_courselist_learn_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_courselist_learn_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_presec_sentence_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_presec_sentence_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_mobile_getpin_unclick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_mobile_getpin_unclick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_item_frame_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_item_frame_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/blue_test_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/blue_test_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_vague_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_vague_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_main_downprogress_layer.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_main_downprogress_layer.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_dialog_return_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_dialog_return_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_speak_download_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_speak_download_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_normalqus_qus_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_normalqus_qus_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/actionbar_wordpre_progressbcg_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/actionbar_wordpre_progressbcg_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_radiobtnbcg_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_radiobtnbcg_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_background_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_background_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qus_test_qusfootview_imvunclick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qus_test_qusfootview_imvunclick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_fragment_normalqus_ans_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_fragment_normalqus_ans_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_class_startlearn_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_class_startlearn_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_order_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_order_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_wrong.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_wrong.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/set_logout_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/set_logout_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_right.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_right.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qus_item_choice_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qus_item_choice_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_main_find_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_main_find_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_word_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_word_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_search_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_search_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_button_change_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_button_change_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_easy_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_easy_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_green_btn.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_green_btn.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_learn_dialog_return_exit_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_learn_dialog_return_exit_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_pause_sysmusic_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_pause_sysmusic_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_test_activity_next_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_test_activity_next_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_prethd_addword_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_prethd_addword_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_play_sysmusic_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_play_sysmusic_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_background_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_background_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_changepackage_confirm_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_changepackage_confirm_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_preview_textbtn_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_preview_textbtn_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_prethd_deleteword_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_prethd_deleteword_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_courselist_classitem_wait_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_courselist_classitem_wait_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_read_qus_test_qusfootview_imvclick.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_read_qus_test_qusfootview_imvclick.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_prethd_front_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_prethd_front_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/tab_main_set_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/tab_main_set_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_presec_remember_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_presec_remember_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_word_background_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_word_background_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_pause_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_pause_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_blue.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_blue.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_speak_upload_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_speak_upload_shape.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_button_what_code_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_button_what_code_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/register_button_code_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/register_button_code_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_progress_speak.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_progress_speak.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_qusresult_returncourselist_icon_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_qusresult_returncourselist_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_radiotextcolor_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_radiotextcolor_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/home_listen_laba_selector.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/home_listen_laba_selector.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/border_white.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/border_white.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/drawable/word_wordlist_familiar_shape.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/drawable/word_wordlist_familiar_shape.xml"
+    }
+]

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+	
+    
+    
+    <LinearLayout 
+        android:id="@+id/word_detail_wordnameLl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        
+        <TextView 
+	        android:id="@+id/word_detail_wordname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="wordname"
+	        android:textSize="50sp"
+	        android:layout_gravity="center_vertical"/>
+    
+	    <ImageView
+	        android:id="@+id/word_detail_voice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/word_preview_laba_selector"
+	        android:layout_marginLeft="40dp"
+	        android:layout_gravity="center_vertical"/>
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:id="@+id/word_detail_phonLl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/word_detail_wordnameLl"
+        android:layout_marginTop="6dp">
+        
+        <TextView 
+	        android:id="@+id/word_detail_phonen"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="phonen"
+	        android:textSize="20sp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_below="@id/word_detail_wordnameLl"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_phonam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phonam"
+            android:textSize="20sp" 
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    
+   
+    
+    <RelativeLayout 
+        android:id="@+id/word_detail_content_Rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/word_detail_next"
+        android:layout_toRightOf="@id/word_detial_front"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/word_detail_phonLl"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/word_presec_sentence_layer">
+        
+        <TextView
+            android:id="@+id/word_detail_meantitle" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/word_prethd_mean"
+            android:layout_marginLeft="15dp" 
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_mean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/word_detail_meantitle"
+            android:layout_toRightOf="@id/word_detail_meantitle"
+            android:text="wordmean"
+            android:layout_marginLeft="100dp"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:lineSpacingExtra="10dp"/>
+        
+        <View 
+            android:id="@+id/word_detail_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/word_detail_mean"
+            android:layout_marginTop="16dp"
+            android:layout_alignLeft="@id/word_detail_meantitle"
+            android:layout_marginRight="15dp"     
+            android:background="@color/word_line"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_tenseComparativeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word_detail_line1"
+            android:layout_alignLeft="@id/word_detail_meantitle"
+            android:layout_marginTop="16dp" 
+            android:text="@string/word_prethd_tense"
+            android:textSize="20sp"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_tenseComparative" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/word_detail_tenseComparativeTitle"
+            android:text="tenseComparative"
+            android:textSize="20sp"
+            android:layout_alignLeft="@id/word_detail_mean"
+            android:layout_marginRight="10dp"
+            android:lineSpacingExtra="10dp"/>
+        
+        <View 
+            android:id="@+id/word_detail_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/word_detail_tenseComparative"
+            android:layout_marginTop="16dp"
+            android:layout_alignLeft="@id/word_detail_meantitle"
+            android:layout_marginRight="15dp"     
+            android:background="@color/word_line"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_sentencetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/word_prethd_sentence"
+            android:layout_below="@id/word_detail_line2"
+            android:layout_marginTop="16dp" 
+            android:textSize="20sp" 
+            android:layout_alignLeft="@id/word_detail_meantitle"/>
+        
+        <TextView 
+            android:id="@+id/word_detail_setence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sentence"
+            android:textSize="20sp"
+            android:layout_alignTop="@id/word_detail_sentencetitle"
+            android:layout_alignLeft="@id/word_detail_mean"
+            android:layout_marginRight="10dp"
+            android:lineSpacingExtra="10dp"/>
+    </RelativeLayout>
+    
+     <ImageButton 
+        android:id="@+id/word_detail_addword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/word_wordlist_detail_addword"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/word_detail_wordnameLl"
+        android:layout_marginRight="10dp"/>
+     
+     <ImageButton 
+         android:id="@+id/word_detail_deleteword"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/word_wordlist_detail_deleteword"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@id/word_detail_wordnameLl"
+         android:layout_marginRight="10dp"
+         android:visibility="gone"/>
+</RelativeLayout>

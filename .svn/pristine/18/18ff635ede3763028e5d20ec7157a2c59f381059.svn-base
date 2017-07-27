@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/home_background">
+    
+	<ListView
+    	android:id="@+id/read_rl_page"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_gravity="center"
+        android:descendantFocusability="blocksDescendants"
+        android:listSelector="@android:color/white" 
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="150dp"
+        android:divider="@null">
+    </ListView>
+    
+	
+	
+	
+	<RelativeLayout
+	    android:id="@+id/home_read_sidebar"
+	    android:layout_height="fill_parent"
+	    android:layout_width="90dp" 
+	    android:background="@color/home_read_sidebar"
+	    android:layout_alignParentRight="true">
+	    
+	    <ImageButton 
+	        android:id="@+id/read_han_click"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/home_read_han_unclick"
+	        android:layout_marginBottom="200dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:visibility="gone"/>
+	    
+	    <ImageButton 
+	        android:id="@+id/read_han_unclick"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/home_read_han_click"
+	        android:layout_marginBottom="200dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"/>
+	    
+	    <!-- <ImageButton 
+	        android:id="@+id/read_timing_click"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/home_read_timing_click"
+	        android:layout_marginBottom="200dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:visibility="gone"/>
+	    
+	    <ImageButton 
+	        android:id="@+id/read_timing_unclick"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/home_read_timing_unclick"
+	        android:layout_marginRight="150dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"/> -->
+	    
+	    <ImageButton 
+	        android:id="@+id/read_qus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/home_read_qus_selector"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="80dp"/>
+	    
+	    <!-- <TextView
+	        android:id="@+id/read_timetext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="120dp"
+	        android:text="00:00"
+	        android:textColor="@color/home_read_sidebar"
+	        android:textSize="18sp"
+	        android:layout_alignParentRight="true"
+	        android:visibility="gone" /> -->
+
+	</RelativeLayout>
+	
+	<!-- <FrameLayout
+	    android:id="@+id/frame"
+	    android:layout_width="80dp"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	</FrameLayout> --> 
+	
+	<!-- <SlidingDrawer 
+	    android:id="@+id/slidingdrawer"
+	    android:layout_width="500dp"
+	    android:layout_height="fill_parent"
+	    android:handle="@+id/handle"
+	    android:content="@+id/content"
+	    android:orientation="horizontal"
+	    android:layout_toLeftOf="@id/home_read_sidebar">
+	    
+	    <ImageButton 
+	        android:id="@id/handle"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:src="@drawable/home_read_que"
+	        android:background="@android:color/transparent" />
+	    
+	    <RelativeLayout
+	        android:id="@id/content"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:background="@color/white">       
+	        
+	        <FrameLayout 
+	            android:id="@+id/frame"
+	            android:layout_height="fill_parent"
+	            android:layout_width="fill_parent">
+	            
+	        </FrameLayout>
+	    </RelativeLayout>
+	</SlidingDrawer>  -->
+	
+	
+	
+</RelativeLayout>

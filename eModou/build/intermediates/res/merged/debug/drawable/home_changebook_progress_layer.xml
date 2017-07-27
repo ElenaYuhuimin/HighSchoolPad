@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        <shape >
+            <corners android:radius="99dp"/>
+            <solid  android:color="@color/white"/>
+            
+            <stroke 
+                android:width="1dp"
+                android:color="@color/home_changebook_purple"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip >
+            <shape>
+                <corners  android:radius="99dp"/>
+                <solid android:color = "@color/home_changebook_blue"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eModou" />
+            <option value="$PROJECT_DIR$/holocircle" />
+            <option value="$PROJECT_DIR$/pullToRefreshListView" />
+            <option value="$PROJECT_DIR$/slidingMenu" />
+            <option value="$PROJECT_DIR$/swipemenulistview" />
+            <option value="$PROJECT_DIR$/viewpagerindicator" />
+            <option value="$PROJECT_DIR$/xutils" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

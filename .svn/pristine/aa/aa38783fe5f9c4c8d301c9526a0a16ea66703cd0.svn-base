@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/actionbar_word">
+    
+	<ImageButton
+        android:id="@+id/actionbar_wordpre_backbtn"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/login_actionbar_back_selector"
+        android:layout_marginLeft="40dp" />
+
+
+    <TextView
+        android:id="@+id/actionbar_wordpre_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true" />
+    	
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/actionbar_wordpre_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="230dp">
+        
+        <LinearLayout 
+            android:id="@+id/actionbar_wordpre_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            
+            <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Remember/All"
+	            android:textColor="@color/white"
+	            android:textSize="20sp"/>
+            
+            <TextView 
+                android:id="@+id/acitonbar_wordpre_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50/120"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        
+        
+        
+        <ProgressBar
+	        android:id="@+id/actionbar_wordpre_progress"
+	        android:layout_below="@id/actionbar_wordpre_rl"
+	        style="?android:attr/progressBarStyleHorizontal"	        
+	        android:layout_width="400dp"
+	        android:layout_height="10dp"     
+	        android:max="120"
+	        android:progress="80"
+	        android:progressDrawable="@drawable/actionbar_wordpre_progressbcg_shape" />
+    </RelativeLayout>
+   
+</RelativeLayout>

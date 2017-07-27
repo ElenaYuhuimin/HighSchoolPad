@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/viewpagerindicator/unspecified/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/exploded-aar/gaozhong/viewpagerindicator/unspecified/res/color/vpi__dark_theme.xml"
+    }
+]

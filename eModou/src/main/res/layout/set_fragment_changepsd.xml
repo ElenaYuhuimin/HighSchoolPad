@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <EditText 
+        android:id="@+id/set_fragment_changepsd_oldpsd"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:hint="@string/set_fragment_changepsd_oldpsd"
+        android:background="@drawable/set_fragment_font_text_shape"
+        android:textColorHint="#939393"
+        android:textSize="26sp"
+        android:drawableLeft="@drawable/set_fragment_changepsd_oldpsd_left"
+        android:paddingLeft ="20dp"		        
+		android:drawablePadding = "45dp"
+		android:textCursorDrawable="@null"/>
+    
+    <RelativeLayout 
+        android:id="@+id/set_fragment_changpsd_rl"
+        android:background="@drawable/set_fragment_font_text_shape"
+        android:layout_below="@id/set_fragment_changepsd_oldpsd"
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/set_fragment_changepsd_oldpsd"
+        android:layout_alignRight="@id/set_fragment_changepsd_oldpsd">
+        
+        <EditText 
+            android:id="@+id/set_fragment_changepsd_newpsd"
+            android:layout_height="80dp"
+            android:layout_width="fill_parent"
+            android:hint="@string/set_fragment_changepsd_newpsd"
+	        android:textColorHint="#939393"
+	        android:textSize="26sp"
+	        android:drawableLeft="@drawable/set_fragment_changepsd_newpsd_left"
+	        android:paddingLeft ="20dp"		        
+			android:drawablePadding = "45dp"
+			android:background="@null"
+			android:textCursorDrawable="@null"/>
+        
+        <View 
+            android:id="@+id/set_frament_changepsd_line"
+            android:background="#d7d7d7"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/set_fragment_changepsd_newpsd"/>
+        
+        <EditText 
+            android:id="@+id/set_fragment_changepsd_confirmpsd"
+            android:layout_height="80dp"
+            android:layout_width="fill_parent"
+            android:hint="@string/set_fragment_changepsd_confirmpsd"
+	        android:textColorHint="#939393"
+	        android:textSize="26sp"
+	        android:drawableLeft="@drawable/set_fragment_changepsd_confirmpsd_left"
+	        android:paddingLeft ="20dp"		        
+			android:drawablePadding = "20dp"
+			android:layout_below="@id/set_frament_changepsd_line"
+			android:background="@null"
+			android:textCursorDrawable="@null"/>
+    </RelativeLayout>
+    
+    <ImageButton 
+        android:id="@+id/set_fragment_changepsd_forget"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/set_fragment_changepsd_forget_selector"
+        android:layout_alignRight="@id/set_fragment_changepsd_oldpsd"
+        android:layout_below="@id/set_fragment_changpsd_rl"
+        android:scaleType="center"
+        android:layout_marginTop="10dp"/>
+    
+    <Button 
+        android:id="@+id/set_fragment_changepsd_confirm"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@id/set_fragment_changepsd_oldpsd"
+        android:layout_alignRight="@id/set_fragment_changepsd_oldpsd"
+        android:layout_below="@id/set_fragment_changepsd_forget"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/set_fragment_mobile_getpin_selector"
+        android:text="@string/set_fragment_changepsd_confirm"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="26sp"/>
+
+</RelativeLayout>

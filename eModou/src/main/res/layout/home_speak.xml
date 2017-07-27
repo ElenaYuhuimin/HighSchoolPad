@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        
+     <ListView
+  		android:id="@+id/home_speak_listview"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:descendantFocusability="blocksDescendants"
+      android:listSelector="@android:color/white" >
+ 	</ListView>
+
+    
+    
+	<RelativeLayout
+	    android:id="@+id/home_speak_sidebar"
+	    android:layout_height="fill_parent"
+	    android:layout_width="90dp" 
+	    android:orientation="vertical"
+	    android:background="@color/home_read_sidebar"
+	    android:layout_alignParentRight="true">
+	    
+	    <Button 
+		    android:id="@+id/home_speak_uploadNo"
+		    android:layout_width="60dp" 
+		    android:layout_height="200dp"
+		    android:background="@drawable/home_speak_uploadno_shape"
+		    android:text="@string/home_speak_tonextwork_text"
+		    android:textSize="20sp"
+		    android:textColor="#b9b9b9"
+		    android:layout_centerHorizontal="true" 
+		    android:gravity="center"
+		    android:layout_marginTop="150dp"/>
+    
+	    <Button 
+		    android:id="@+id/home_speak_upload"
+		    android:layout_width="60dp" 
+		    android:layout_height="200dp"
+		    android:background="@drawable/home_speak_upload_shape"
+		    android:text="@string/home_speak_tonextwork_text"
+		    android:textSize="20sp"
+		    android:textColor="@color/white"
+		    android:layout_centerHorizontal="true" 
+		    android:gravity="center"
+		    android:visibility="gone"
+		    android:layout_marginTop="150dp"/>
+	    
+	    <ImageButton 
+	        android:id="@+id/home_speak_han_unclick"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="400dp"
+	        android:background="@drawable/home_speak_han_unclick"/>
+	    
+	     <ImageButton 
+	        android:id="@+id/home_speak_han_click"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="400dp"
+	        android:background="@drawable/home_speak_han_click"
+	        android:visibility="gone"/>
+	     
+	     <ImageButton 
+	         android:id="@+id/home_speak_continueplay_unclick"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerHorizontal="true"
+	         android:layout_marginTop="480dp"
+	         android:background="@drawable/home_speak_continueplay_unclick"/>
+	     
+	     <ImageButton 
+	         android:id="@+id/home_speak_continueplay_click"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerHorizontal="true"
+	         android:layout_marginTop="480dp"
+	         android:background="@drawable/home_speak_continueplay_click"
+	         android:visibility="gone"/>
+	     
+	     
+	 
+	</RelativeLayout>
+</RelativeLayout>

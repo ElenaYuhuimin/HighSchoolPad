@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+    <!-- Rl中focusable和focusableInTouchMode是取消EditText自动获得焦点的 -->
+	<RelativeLayout 
+	    android:id="@+id/word_main_find_rl"
+	    android:layout_width="950dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/word_main_find_rlbcg"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true">
+	    
+	    <ImageView 
+	        android:id="@+id/word_main_find_change_en"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="60dp"
+	        android:background="@drawable/word_main_find_change_en"
+	        android:visibility="gone"/>
+	    
+	    <ImageView 
+	        android:id="@+id/word_main_find_change_cn"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="60dp"
+	        android:background="@drawable/word_main_find_change_cn"
+	        android:visibility="gone"/>
+	    
+	    <EditText 
+	        android:id="@+id/word_main_find_edt"
+	        android:layout_height="60dp"
+	        android:layout_width="800dp"
+	        android:layout_toRightOf="@id/word_main_find_change_en"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/word_main_find_shape"
+	        android:layout_marginLeft="30dp"
+	        android:drawableRight="@drawable/word_main_find_icon_selector"
+	        android:paddingRight="20dp"
+	        android:paddingLeft="20dp"
+	        android:hint="查词"
+	        android:textSize="35sp"
+	        android:textColor="#7c7c7c"
+	        android:textColorHint="#7c7c7c"
+	        android:layout_centerHorizontal="true"/>
+	</RelativeLayout>
+	
+	<RelativeLayout 
+	    android:id="@+id/word_main_newRl"
+	    android:layout_width="300dp"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/word_main_new_rlbcg_selector"
+	    android:layout_toRightOf="@id/word_main_find_rl"
+	    android:layout_alignBottom="@id/word_main_find_rl"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginLeft="5dp">
+	    
+	    <ImageView 
+	        android:id="@+id/word_main_new_a"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/word_main_new_a"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="40dp"/>
+	    
+	    <TextView 
+	        android:id="@+id/word_main_new_text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/word_main_new_text1"
+	        android:textColor="@color/white"
+	        android:textSize="29sp"
+	        android:layout_toRightOf="@id/word_main_new_a"
+	        android:layout_alignTop="@id/word_main_new_a"
+	        android:layout_marginLeft="40dp"
+	        android:layout_marginRight="50dp"/>
+	    
+	    <TextView 
+	        android:id="@+id/word_main_newordCount"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/word_main_new_text2"
+	        android:textColor="@color/white"
+	        android:textSize="20sp"
+	        android:layout_below="@id/word_main_new_text1"
+	        android:layout_alignLeft="@id/word_main_new_text1"
+	        android:layout_alignBottom="@id/word_main_new_a"
+	        android:layout_marginTop="2dp"/>
+	</RelativeLayout>
+	
+	<TextView 
+	    android:id="@+id/word_main_totalcount"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/word_main_totalcount"
+	    android:textColor="#7c7c7c"
+	    android:textSize="25sp"
+	    android:layout_below="@id/word_main_find_rl"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="30dp"
+	    android:visibility="gone"/>
+	
+	<LinearLayout 
+	    android:id="@+id/word_main_bookinfoLL"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/word_main_totalcount"
+	    android:layout_marginTop="40dp">
+	    
+	    <TextView 
+		    android:id="@+id/word_main_bookname"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/word_main_bookname"
+		    android:textSize="40sp"
+		    android:textColor="@color/word_darkpurple"
+		    android:layout_gravity="center_vertical"/>
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/word_main_bookinfo_clock"
+	        android:layout_marginLeft="40dp"/>
+	    
+	    <TextView 
+		    android:id="@+id/word_main_booklearntime"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/word_main_booklearntime"
+		    android:textSize="40sp"
+		    android:textColor="@color/word_darkpurple"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginLeft="20dp"/>
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="40dp"
+	    android:layout_below="@id/word_main_bookinfoLL">
+	    
+	    <RelativeLayout 
+		    android:id="@+id/word_main_progressRl"
+		    android:layout_width="300dp"
+		    android:layout_height="300dp">
+	        
+	         <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+	            android:id="@+id/word_main_cirprogress"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:background="@drawable/word_main_cirprogress"/>
+	         
+	         <TextView 
+	             android:id="@+id/word_main_learnedword"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="@string/word_main_thislearnedword"
+	             android:textColor="@color/word_darkpurple"
+	             android:layout_centerHorizontal="true"
+	             android:textSize="35sp"
+	             android:layout_marginTop="100dp"/>
+	         
+	         <TextView 
+	             android:id="@+id/word_main_totalword"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="@string/word_main_thistotalword"
+	             android:textColor="#7c7c7c"
+	             android:layout_centerHorizontal="true"
+	             android:textSize="35sp"
+	             android:layout_marginTop="160dp"/>
+	    </RelativeLayout>
+	    
+	    <!-- Go 进入背词列表  资源准备中请稍后 这三个按钮 -->
+	    <RelativeLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="100dp">
+	         
+		    <ImageButton 
+		        android:id="@+id/word_main_go"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/word_main_go_selector"/>
+		    
+		    <com.emodou.extend.MyProgressBar 
+		        android:id="@+id/word_main_downprogress"
+		        style="?android:attr/progressBarStyleHorizontal"
+		        android:layout_width="400dp"
+		        android:layout_height="100dp"
+		        android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/word_main_downprogress_layer"
+                android:visibility="gone"/>
+		    
+		    
+		    <Button 
+		        android:id="@+id/word_main_golist"
+		        android:layout_width="400dp"
+		        android:layout_height="100dp"
+		        android:text="@string/word_main_golist"
+		        android:background="@drawable/word_courselist_startlean_selector"
+		        android:textColor="@color/white"
+		        android:textSize="35sp"
+		        android:visibility="gone"/>
+		    
+		    <Button 
+		        android:id="@+id/word_main_prepare"
+		        android:layout_width="400dp"
+		        android:layout_height="100dp"
+		        android:text="@string/word_main_prepare"
+		        android:background="@drawable/word_courselist_startlean_selector"
+		        android:textColor="@color/white"
+		        android:textSize="35sp"
+		        android:visibility="gone"/>
+	    
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	
+</RelativeLayout>

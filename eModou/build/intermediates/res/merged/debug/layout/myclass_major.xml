@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <RelativeLayout 
+        android:id="@+id/myclass_major_tvbar"
+        style="@style/actionbar_home">
+        
+         <TextView 
+	        android:id="@+id/myclass_major_titleTv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="60dp" 
+	        android:gravity="center"
+	        android:text="请选择班级"
+	        android:textColor="@color/white"
+	        android:textSize="30sp"
+	        android:layout_centerInParent="true"/>
+	    
+	    <ImageView 
+	        android:id="@+id/myclass_major_outImv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/myclass_major_outimv"
+	        android:layout_toRightOf="@id/myclass_major_titleTv"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"/>
+	    
+	    <ImageView 
+	        android:id="@+id/myclass_major_inImv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/myclass_major_inimv"
+	        android:layout_toRightOf="@id/myclass_major_titleTv"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	        android:visibility="gone"/>
+    </RelativeLayout>
+   
+    
+	<!-- 左半部分框框 -->
+	<LinearLayout 
+	    android:id="@+id/myclass_major_leftLl"
+	    android:layout_width="160dp" 
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_below="@id/myclass_major_tvbar">
+	    
+	    <RelativeLayout 
+	        android:id="@+id/myclass_major_homeworkRl"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@color/set_fragment_bcg">
+	        
+	        <ImageView 
+	            android:id="@+id/myclass_major_homeworkimv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/myclass_major_homeworkimv_selector"
+	            android:layout_centerInParent="true"
+	            android:duplicateParentState="true"/>
+	        
+	        <TextView 
+	            android:id="@+id/myclass_major_homeworkTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" 
+	            android:layout_centerHorizontal="true"
+	            android:layout_below="@id/myclass_major_homeworkimv"
+	            android:text="@string/myclass_major_homework" 
+	            android:layout_marginTop="10dp"/>
+	        
+	        <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignParentBottom="true"/>
+	    </RelativeLayout>
+	    
+	     <RelativeLayout 
+	        android:id="@+id/myclass_major_messageRl"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@color/set_fragment_bcg">
+	        
+	         <ImageView 
+	            android:id="@+id/myclass_major_msgimv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/myclass_major_msgimv_selector"
+	            android:layout_centerInParent="true"
+	            android:duplicateParentState="true"/>
+	        
+	        <TextView 
+	            android:id="@+id/myclass_major_msgTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" 
+	            android:layout_centerHorizontal="true"
+	            android:layout_below="@id/myclass_major_msgimv"
+	            android:text="@string/myclass_major_message" 
+	            android:layout_marginTop="10dp"/>
+	        
+	        <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignParentBottom="true"/>
+	        
+	    </RelativeLayout>
+	    
+	     
+	</LinearLayout>
+	
+	
+	<View 
+       android:layout_width="1dp"
+       android:layout_height="fill_parent"
+       android:background="#d7d7d7"               
+       android:layout_toRightOf="@id/myclass_major_leftLl"
+       android:layout_marginTop="60dp"/>
+	<!-- 右侧的fragment -->
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/myclass_major_leftLl"
+        android:background="@color/set_fragment_bcg" 
+        android:layout_marginLeft="1dp">
+        
+        <FrameLayout 
+            android:id="@+id/myclass_major_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+        </FrameLayout>
+        
+        <TextView 
+            android:id="@+id/myclass_major_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" 
+            android:textColor="@color/home_listen_qusresult_darktext"
+            android:text="@string/myclass_major_empty"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <!-- 左半部分的布局 -->
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="200dp"
+        android:layout_weight="1.0"
+        android:background="@color/courselist_leftbgd"
+        android:orientation="vertical">
+        
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+            <!-- 单元名称列表布局 -->
+	        <ListView 
+	            android:id="@+id/home_courselist_listview_unit"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:divider="@color/courselist_unit_divider"
+	            android:dividerHeight="2dp"
+	            android:listSelector="@color/white">
+	        </ListView>
+         </RelativeLayout>
+        
+        
+        <Button 
+            android:id="@+id/home_courselist_downloadall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_courselist_downloadall_selector"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:visibility="gone"/>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="4dp"
+	    android:layout_height="fill_parent"
+	    android:background="@color/courselist_class_divider">	        
+	</View>
+	
+    <LinearLayout 
+        android:layout_width="350dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:background="@color/white"
+        android:orientation="vertical">
+        
+        <ListView 
+            android:id="@+id/home_courselist_listview_class"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:divider="@color/courselist_class_divider"
+            android:dividerHeight="2dp"
+            android:listSelector="@android:color/transparent">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

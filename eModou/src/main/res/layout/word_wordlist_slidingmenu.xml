@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+    
+	<TextView 
+	    android:id="@+id/word_wordlist_menu_showword"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginTop="60dp"
+	    android:text="@string/word_wordlist_slidingmenu_showword"
+	    android:textColor="@color/home_listen_qusresult_darktext"/>
+	
+	<!-- 显示词汇的四个按钮，为了防止单词如模糊没有，后面布局会变，因此下面的都要比上面任一个below,RelativeLayout会自动选择第一个below,下面的below失效 -->
+	<LinearLayout
+	    android:id="@+id/word_wordlist_menu_showwordLl"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_below="@id/word_wordlist_menu_showword"
+	    android:layout_marginTop="10dp"
+	    android:orientation="vertical">
+	    
+	    <!-- 未学习 -->
+	    <Button 
+		    android:id="@+id/word_wordlist_menu_notlearn_click"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_notlearn"
+		    android:textColor="@color/white"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@drawable/word_wordlist_notlearn_shape"
+		    android:textSize="20sp"/>
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_notlearn_unclick"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_notlearn"
+		    android:textColor="@color/black"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@color/white"
+		    android:visibility="gone"
+		    android:textSize="20sp"/>
+	    
+		<!-- 陌生 -->
+	    <Button 
+		    android:id="@+id/word_wordlist_menu_unfamiliar_click"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_unfamiliar"
+		    android:textColor="@color/white"
+		    android:layout_centerHorizontal="true"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@drawable/word_wordlist_unfamiliar_shape"
+		    android:textSize="20sp"/>
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_unfamiliar_unclick"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_unfamiliar"
+		    android:textColor="@color/black"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@color/white"
+		    android:visibility="gone"
+		    android:textSize="20sp"/>
+		
+		<!-- 模糊 -->
+		<Button 
+		    android:id="@+id/word_wordlist_menu_vague_click"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_vague"
+		    android:textColor="@color/white"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@drawable/word_wordlist_vague_shape"
+		    android:textSize="20sp"/>
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_vague_unclick"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_vague"
+		    android:textColor="@color/black"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@color/white"
+		    android:visibility="gone"
+		    android:textSize="20sp"/> 
+		    
+		<!-- 熟悉 -->
+		<Button 
+		    android:id="@+id/word_wordlist_menu_familiar_click"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_familiar"
+		    android:textColor="@color/white"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@drawable/word_wordlist_familiar_shape"
+		    android:textSize="20sp"/>
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_familiar_unclick"
+		    android:layout_width="75dp"
+		    android:layout_height="40dp"
+		    android:text="@string/word_wordlist_slidingmenu_familiar"
+		    android:textColor="@color/black"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:background="@color/white"
+		    android:visibility="gone"
+		    android:textSize="20sp"/> 
+	</LinearLayout>
+	
+	<!-- 排列顺序 -->
+	<TextView 
+	    android:id="@+id/word_wordlist_menu_order"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/word_wordlist_slidingmenu_order"
+	    android:textSize="18sp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginTop="30dp"
+	    android:textColor="@color/home_listen_qusresult_darktext"
+	    android:layout_below="@id/word_wordlist_menu_showwordLl"/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/word_wordlist_menu_order"
+	    android:orientation="vertical"
+	    android:layout_marginTop="10dp">
+		
+	    <RadioGroup 
+            android:id="@+id/word_wordlist_menu_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            
+            <RadioButton 
+                android:id="@+id/word_wordlist_menu_bookorder"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:text="@string/word_wordlist_slidingmenu_bookorder"
+                android:textSize="20sp"
+                android:textColor="@drawable/word_wordlist_radiotextcolor_selector"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/word_wordlist_radiobtnbcg_selector"
+                android:button="@null"
+                android:layout_marginTop="20dp"
+                android:checked="true"/>
+            
+            <RadioButton 
+                android:id="@+id/word_wordlist_menu_wordorder"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:text="@string/word_wordlist_slidingmenu_wordorder"
+                android:textSize="20sp"
+                android:textColor="@drawable/word_wordlist_radiotextcolor_selector"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/word_wordlist_radiobtnbcg_selector"
+                android:button="@null"
+                android:layout_marginTop="20dp"/>
+            
+             <RadioButton 
+                android:id="@+id/word_wordlist_menu_degreeorder"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:text="@string/word_wordlist_slidingmenu_degreeorder"
+                android:textSize="20sp"
+                android:textColor="@drawable/word_wordlist_radiotextcolor_selector"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/word_wordlist_radiobtnbcg_selector"
+                android:button="@null"
+                android:layout_marginTop="20dp"/>
+            
+            
+        </RadioGroup>
+	    
+	    
+	    <!-- 课本顺序 -->
+		<!-- <Button 
+		    android:id="@+id/word_wordlist_menu_bookorder_click"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_bookorder"
+		    android:background="@drawable/word_wordlist_notlearn_shape"
+		    android:textColor="@color/white"/>
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_bookorder_unclick"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_bookorder"
+		    android:background="@color/white"
+		    android:visibility="gone"/>
+		
+		字母顺序
+		<Button 
+		    android:id="@+id/word_wordlist_menu_wordorder_click"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		   android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_wordorder"
+		    android:background="@drawable/word_wordlist_notlearn_shape"
+		    android:textColor="@color/white"
+		    android:visibility="gone"/>
+		
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_wordorder_unclick"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_wordorder"
+		    android:background="@color/white"/>
+		
+		掌握程度
+		<Button 
+		    android:id="@+id/word_wordlist_menu_degreeorder_click"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_degreeorder"
+		    android:background="@drawable/word_wordlist_notlearn_shape"
+		    android:textColor="@color/white"
+		    android:visibility="gone"/>
+		
+		
+		<Button 
+		    android:id="@+id/word_wordlist_menu_degreeorder_unclick"
+		    android:layout_width="80dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="center_horizontal"	   
+		    android:layout_marginTop="20dp"
+		    android:text="@string/word_wordlist_slidingmenu_degreeorder"
+		    android:background="@color/white"/> -->
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="20dp"
+	    android:layout_centerHorizontal="true"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+		    android:id="@+id/word_wordlist_menu_totalword"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="16sp" 
+		    android:text="全部 : 24词"
+		    android:textColor="@color/home_listen_qusresult_darktext"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16sp"
+	        android:text=" / "
+	        android:textColor="@color/home_listen_qusresult_darktext"/>
+	    
+	    <TextView
+	        android:id="@+id/word_wordlist_menu_leftword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16sp"
+	        android:text="剩余 : 15词"
+	        android:textColor="@color/home_listen_qusresult_darktext"/>
+	    
+	</LinearLayout>
+	
+	
+</RelativeLayout>

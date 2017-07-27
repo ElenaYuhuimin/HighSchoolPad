@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.emodou.extend.FlipLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_wordlist_fliplayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp" 
+	    android:background="@color/white">
+	    
+	    <!-- 陌生 -->
+	    <View
+	        android:id="@+id/word_wordlist_unfamiliarhint"
+	        android:layout_width="30dp"
+	        android:layout_height="fill_parent"
+	        android:background="@color/word_wordlist_unfamiliarhint_bcg"
+	        android:layout_alignParentLeft="true"
+	        android:visibility="gone"/>
+	    
+	    <!-- 模糊 -->
+	    <View
+	        android:id="@+id/word_wordlist_vaguehint"
+	        android:layout_width="20dp"
+	        android:layout_height="fill_parent"
+	        android:background="@color/word_wordlist_vaguehint_bcg"
+	        android:layout_alignParentLeft="true"
+	        android:visibility="gone"/>
+	    
+	    <!-- 熟悉 -->
+	    <View
+	        android:id="@+id/word_wordlist_familiarhint"
+	        android:layout_width="10dp"
+	        android:layout_height="fill_parent"
+	        android:background="@color/word_wordlist_familiarhint_bcg"
+	        android:layout_alignParentLeft="true"
+	        android:visibility="gone"/>
+	    
+	   <!--  <ImageView 
+	        android:id="@+id/word_wordlist_voice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/word_preview_laba_selector"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="50dp"/> -->
+	    
+	    <TextView 
+	        android:id="@+id/word_wordlist_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:text="word"
+	        android:singleLine="true"
+	        android:textColor="@color/courselist_classitem_nametext"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="80dp"
+	        android:layout_alignParentLeft="true"/>   	
+	</RelativeLayout>
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp" 
+	    android:background="@color/actionbar_word"
+	    android:visibility="gone">
+	    
+	    <TextView 
+	        android:id="@+id/word_wordlist_mean"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="30sp"
+	        android:text="meaning"
+	        android:singleLine="true"
+	        android:ellipsize="marquee"
+	        android:layout_marginLeft="80dp"
+	        android:layout_centerVertical="true"
+	        android:textColor="@color/white"
+	        android:layout_marginRight="100dp"/>
+	    
+	    <ImageView 
+	        android:id="@+id/word_wordlist_check"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="40dp"
+	        android:background="@drawable/word_wordlist_check_selector"
+	        android:layout_centerVertical="true"/>
+	    
+	</RelativeLayout>
+	
+
+</com.emodou.extend.FlipLayout>

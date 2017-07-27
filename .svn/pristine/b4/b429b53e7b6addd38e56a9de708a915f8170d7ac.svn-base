@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/raw/realm_properties",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/raw/realm_properties"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/raw/beep.ogg"
+    }
+]

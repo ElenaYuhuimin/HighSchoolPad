@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eModou.iml" filepath="$PROJECT_DIR$/eModou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eModou/eModou-eModou.iml" filepath="$PROJECT_DIR$/eModou/eModou-eModou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/holocircle/holocircle.iml" filepath="$PROJECT_DIR$/holocircle/holocircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshListView/pullToRefreshListView.iml" filepath="$PROJECT_DIR$/pullToRefreshListView/pullToRefreshListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenu/slidingMenu.iml" filepath="$PROJECT_DIR$/slidingMenu/slidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipemenulistview/swipemenulistview.iml" filepath="$PROJECT_DIR$/swipemenulistview/swipemenulistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerindicator/viewpagerindicator.iml" filepath="$PROJECT_DIR$/viewpagerindicator/viewpagerindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
+    </modules>
+  </component>
+</project>

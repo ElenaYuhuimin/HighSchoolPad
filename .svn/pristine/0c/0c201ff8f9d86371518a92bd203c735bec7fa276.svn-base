@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	    
+    <TextView 
+        android:id="@+id/myclass_homework_bigitem_dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="14sp"   
+        android:layout_marginTop="6dp"
+        android:textColor="@color/person_myclass_classitem_darkgreen"
+        android:layout_marginLeft="60dp"/>
+    
+    
+    
+    <ListView 
+        android:id="@+id/myclass_homework_bigitem_smallLv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/myclass_homework_bigitem_dateTv"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        android:divider="#d7d7d7"
+        android:dividerHeight="1dp"></ListView>
+    
+    <View 
+        android:layout_width="2dp" 
+        android:layout_height="fill_parent"
+        android:background="#d7d7d7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/myclass_homework_bigitem_smallLv"
+        />
+	
+	    
+    <ImageView 
+        android:id="@+id/myclass_homework_bigitem_uncheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myclass_homework_bigitem_uncheck"
+        android:layout_marginTop="6dp" 
+        android:layout_marginLeft="22dp"
+        android:visibility="gone"/>
+    
+    <ImageView 
+        android:id="@+id/myclass_homework_bigitem_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myclass_homework_bigitem_check"
+        android:layout_marginTop="6dp" 
+        android:layout_marginLeft="22dp"/>
+    
+    
+</RelativeLayout>

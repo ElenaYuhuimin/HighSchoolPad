@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/home_courselist_classitem_selector" >
+    
+    <ImageView
+        android:id="@+id/home_courselist_notlearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_notlearn" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_listen_learned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:visibility="gone"
+        android:src="@drawable/home_courselist_listen_learned" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_listen_learning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_listen_learning" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_read_learned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_read_learned" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_read_learning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_read_learning" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_speak_learned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_speak_learned" />
+    
+    <ImageView
+        android:id="@+id/home_courselist_speak_learning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/home_courselist_speak_learning" />
+    
+    
+    <TextView
+        android:id="@+id/home_courselist_classlist_nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="85dp"
+        android:singleLine="true"
+        android:text="text"
+        android:textSize="30sp"
+        android:textColor="@color/courselist_classitem_nametext"/>
+
+    
+    <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+        android:id="@+id/home_courselist_hcp_download"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="40dp" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+              
+    <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+        android:id="@+id/home_courselist_hcp_loadpause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_marginRight="40dp" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>          
+                
+     <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+        android:id="@+id/home_courselist_hcp_downloading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_marginRight="40dp" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>                              
+	
+     <ImageView
+        android:id="@+id/home_courselist_downloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/home_courselist_classitem_listen_downloaded_selector"
+        android:background="@android:color/transparent"
+        android:visibility="gone" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+     
+     <ImageView
+        android:id="@+id/home_courselist_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/home_courselist_classitem_wait_selector"
+        android:background="@android:color/transparent"
+        android:visibility="gone" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+     
+</RelativeLayout>

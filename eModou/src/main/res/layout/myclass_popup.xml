@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+	<ListView 
+	    android:id="@+id/myclass_popup_listview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:divider="@color/courselist_class_divider"
+	    android:dividerHeight="1dp"
+	    >
+	    
+	</ListView>
+</RelativeLayout>

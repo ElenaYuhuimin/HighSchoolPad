@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/anim/out_righttoleft.xml",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/anim/out_righttoleft.xml"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/anim/in_lefttoright.xml",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/anim/in_lefttoright.xml"
+    }
+]

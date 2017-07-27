@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+    <RelativeLayout 
+        android:id="@+id/home_changepackage_codeRl"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" 
+        android:background="@color/word_changepackage_codeRlBcg"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        
+        <EditText 
+	        android:id="@+id/word_search_find_edt"
+	        android:layout_height="60dp"
+	        android:layout_width="1000dp"
+	        android:layout_centerInParent="true"
+	        android:background="@drawable/word_main_find_shape"
+	        android:drawableRight="@drawable/home_changepackage_confirm_selector"
+	        android:paddingRight="20dp"
+	        android:paddingLeft="20dp"
+	        android:hint="@string/word_changepackage_codeHint"
+	        android:textSize="35sp"
+	        android:textColor="#7c7c7c"
+	        android:textColorHint="#7c7c7c"
+	        android:singleLine="true"/>
+    </RelativeLayout>
+    
+    <eu.erikw.PullToRefreshListView
+	    android:id="@+id/home_changepackage_listView"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent" 
+	    android:layout_below="@id/home_changepackage_codeRl"
+        android:dividerHeight="8dp" 
+        android:divider="@color/word_bcg"
+        android:duplicateParentState="false"/>
+
+</RelativeLayout>

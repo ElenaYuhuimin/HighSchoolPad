@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/anim/in_lefttoright.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/anim/in_lefttoright.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/build/intermediates/res/merged/debug/anim/out_righttoleft.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/eModou/src/main/res/anim/out_righttoleft.xml"
+    }
+]

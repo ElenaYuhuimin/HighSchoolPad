@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp" 
+    android:background="@color/white">
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp">
+        
+        <TextView 
+		    android:id="@+id/myclass_homework_smallitem_nameTv"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="20sp"
+		    android:text="text name"/>
+        
+        <TextView 
+            android:id="@+id/myclass_homework_smallitem_endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myclass_homework_smallitem_nameTv"
+            android:layout_marginTop="10dp"
+            android:text="endtime"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/myclass_homework_smallitem_inImv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/myclass_homework_smallitem_inimv"/>
+    
+    <ImageView 
+        android:id="@+id/myclass_homework_smallitem_doneImv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/myclass_homework_smallitem_doneimv"
+        android:visibility="gone"/>
+    
+    <ImageView 
+        android:id="@+id/myclass_homework_smallitem_cutoffImv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/myclass_homework_smallitem_cutoffimv"
+        android:visibility="gone"/>
+	
+</RelativeLayout>

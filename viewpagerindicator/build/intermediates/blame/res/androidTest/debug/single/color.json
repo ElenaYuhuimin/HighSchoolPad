@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/viewpagerindicator/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/viewpagerindicator/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/Users/maixin/emodouSvnVersion/gaozhong/viewpagerindicator/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/Users/maixin/emodouSvnVersion/gaozhong/viewpagerindicator/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    }
+]

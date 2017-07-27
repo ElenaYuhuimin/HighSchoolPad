@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set_fragment_bcg" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_fragment_mobile_text1"
+        android:textColor="#939393"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"/>
+    
+    <TextView 
+        android:id="@+id/set_fragment_mobile_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_fragment_mobile_text2"
+        android:textColor="#939393"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"/>
+    
+    <TextView 
+        android:id="@+id/set_fragment_mobile_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18810671884"
+        android:textColor="#939393"
+        android:textSize="25sp"
+        android:layout_alignBottom="@id/set_fragment_mobile_text2"
+        android:layout_toRightOf="@id/set_fragment_mobile_text2"/>
+    
+    <EditText 
+        android:id="@+id/set_fragment_mobile_mobile"
+        android:background="@drawable/set_fragment_font_text_shape"
+        android:hint="@string/set_fragment_mobile_mobile"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textColorHint="#939393"
+        android:drawableLeft="@drawable/login_img_phone"
+		android:paddingLeft ="14dp"		        
+		android:drawablePadding = "14dp"
+		android:layout_below="@id/set_fragment_mobile_text3"
+		android:layout_marginTop="50dp"
+		android:textSize="26sp"
+		android:textCursorDrawable="@null"/>
+    
+    <Button 
+        android:id="@+id/set_fragment_mobile_getpin"
+        android:text="@string/set_fragment_mobile_getpin"
+        android:textColor="@color/white"
+        android:background="@drawable/set_fragment_mobile_getpin_selector"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_below="@id/set_fragment_mobile_mobile"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    
+    
+    <EditText 
+        android:id="@+id/set_fragment_mobile_inputpin"
+        android:background="@drawable/set_fragment_font_text_shape"
+        android:hint="@string/set_fragment_mobile_inputpin"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="25dp"
+        android:textColorHint="#939393"
+        android:drawableLeft="@drawable/register_img_captcha"
+		android:paddingLeft ="14dp"		        
+		android:drawablePadding = "14dp"
+		android:layout_below="@id/set_fragment_mobile_mobile"
+		android:layout_alignLeft="@id/set_fragment_mobile_mobile"
+		android:layout_toLeftOf="@id/set_fragment_mobile_getpin"
+		android:layout_marginTop="20dp"
+		android:textSize="26sp"
+		android:textCursorDrawable="@null"/>
+    
+    <Button
+        android:id="@+id/set_fragment_mobile_change"
+        android:text="@string/set_fragment_mobile_change"
+        android:textColor="@color/white"
+        android:background="@drawable/set_fragment_mobile_getpin_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/set_fragment_mobile_inputpin"
+        android:layout_alignLeft="@id/set_fragment_mobile_inputpin"
+        android:layout_alignRight="@id/set_fragment_mobile_getpin"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

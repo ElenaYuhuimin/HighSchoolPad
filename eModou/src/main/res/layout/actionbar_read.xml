@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/actionbar_read">
+    
+    <ImageButton
+        android:id="@+id/actionbar_read_return"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/login_actionbar_back_selector"
+        android:layout_marginLeft="40dp" />
+    
+    
+    <TextView 
+        android:id="@+id/actionbar_read_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:text="title"/>
+    
+    <ImageButton 
+        android:id="@+id/actionbar_read_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionbar_read_clock"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="130dp"
+        android:layout_centerVertical="true"/>
+    
+    <TextView
+        android:id="@+id/actionbar_read_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

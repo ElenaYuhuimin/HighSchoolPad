@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<!--易魔豆首页-->
+	<TextView
+	    style="@style/actionbar_home"
+	    android:id="@+id/actionbar"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textSize="40sp"
+	    android:text="@string/actionbar_text_home"/>
+	
+	<!--首页版面-->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:baselineAligned="true"
+	    android:orientation="horizontal">
+	    
+		<!--左半部分的黄色面板布局-->
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1.0"
+	        android:baselineAligned="true"
+	        android:background="#ffd541"
+	        android:orientation="vertical">
+	        
+			<!--人物头像-->
+	       <com.emodou.extend.CircleImageView
+                android:id="@+id/home_headphoto"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/home_img_headphoto"
+                android:layout_gravity="center_horizontal" 
+                app:border_width="4dp"
+      			app:border_color="@color/light_yellow" />
+      			
+      		<!-- <com.facebook.drawee.view.SimpleDraweeView
+				android:id="@+id/home_headphoto"
+				android:layout_width="180dp"
+			    android:layout_height="180dp"
+			    android:scaleType="centerCrop"
+			    android:layout_marginTop="40dp"
+			    android:layout_gravity="center_horizontal"
+			    fresco:placeholderImage="@drawable/home_icon_placeholder"
+			    fresco:progressBarImage="@drawable/home_icon_progress_bar"
+       		    fresco:progressBarImageScaleType="centerInside"
+                fresco:progressBarAutoRotateInterval="5000" 
+                fresco:actualImageScaleType="focusCrop"/>实际图片缩放类型 -->
+	        
+			<!--人名昵称-->
+	        <TextView 
+	            android:id="@+id/home_nickname"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#7a520a"
+	            android:textSize="30sp"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="40dp"
+	            android:text="Hi,HeiHeiYaiBa"/>	   
+	        
+	        
+			<!--包名称和学习时长-->
+	        <RelativeLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="80dp"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp">
+	            
+	            <Button 
+	                android:id="@+id/home_change_package"
+	                android:background="@drawable/home_button_change_selector"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"/>
+	            
+	            <TextView
+		            android:id="@+id/home_packagename"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#7a520a"
+		            android:textSize="30sp"
+		           	android:layout_toRightOf="@id/home_change_package"
+		           	android:layout_marginLeft="30dp"
+		           	android:layout_marginTop="10dp"
+		           	android:text="请选择学习包"/>
+	            
+	             <TextView 
+		            android:id="@+id/home_studytime"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#7a520a"
+		            android:textSize="30sp"
+		           	android:layout_below="@id/home_packagename"
+		           	android:layout_alignLeft="@id/home_packagename"
+		           	android:layout_marginTop="30dp"
+		           	android:text="学习时长:23.5h"
+		           	android:visibility="gone"/>	            
+	        
+			
+				<!--书名称和学习进度条-->
+	            
+	            <Button 
+	                android:id="@+id/home_change_book"
+	                android:background="@drawable/home_button_change_selector"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_alignLeft="@+id/home_change_package"
+	                android:layout_below="@+id/home_change_package"
+	                android:layout_marginTop="40dp"/>
+	            
+	            <TextView
+		            android:id="@+id/home_bookname"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#7a520a"
+		            android:textSize="30sp"
+		           	android:layout_toRightOf="@id/home_change_book"
+		           	android:text="请选择书本"
+		           	android:layout_below="@id/home_packagename"
+		           	android:layout_marginTop="67dp"
+		           	android:layout_alignLeft="@id/home_packagename"/>
+	            
+	             
+	            <ProgressBar
+	                android:id="@+id/home_book_progress"
+	                style="?android:attr/progressBarStyleHorizontal"
+	                android:layout_width="23dp"
+	                android:layout_height="15dp"
+	                android:layout_alignLeft="@+id/home_bookname"
+	                android:layout_below="@+id/home_bookname"
+	                android:layout_marginTop="30dp"
+	                android:max="100"
+	                android:progress="50"
+	                android:progressDrawable="@drawable/home_bookprogress"
+	                android:visibility="gone"/>	            
+	        </RelativeLayout>
+	        
+	        
+	    </LinearLayout>
+	    
+	    <!-- 两个面板之间的线 -->
+	    <View
+	        android:layout_width="10dp"
+	        android:layout_height="fill_parent"
+	        android:background="@color/home_line">	        
+	    </View>
+		
+		
+	    <!--右侧四个模块进度条-->
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1.5"
+	        android:baselineAligned="true"
+	        android:gravity="center">
+	        
+	        
+	        <!-- 四个模块整体的布局 -->
+	        <RelativeLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content">
+	            
+	            <!-- 听力模块的布局 -->
+	            <RelativeLayout 
+	                android:id="@+id/home_relative_listen"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content">
+	                
+	                <!-- 背景 -->	                
+	                <ImageView 		
+	                    android:id="@+id/home_listen_background"         	
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/home_listen_background"/>
+	                
+	                <!--progressbar  -->	
+	                <ProgressBar 
+	                    android:id="@+id/home_progress_listen"
+	                    android:indeterminateOnly="false"
+	                    android:layout_height="166dp"
+	                    android:layout_width="166dp"
+	                    android:progressDrawable="@drawable/home_progress_listen"
+	                    android:layout_marginTop="92dp"
+	                    android:layout_marginLeft="22dp"/> 
+	                                   
+			   		<!-- 听力图标 --> 
+	                <ImageView 
+	                    android:id="@+id/home_listen_icon"
+	                    android:layout_height="wrap_content"
+	                    android:layout_width="wrap_content"
+	                    android:background="@drawable/home_listen_icon"
+	                    android:layout_marginTop="117dp"
+	                    android:layout_centerHorizontal="true"/>	                
+	            </RelativeLayout>    
+	            
+				<!-- 口语模块的布局 -->
+	            <RelativeLayout 
+	                android:id="@+id/home_relative_speak"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_toRightOf="@id/home_relative_listen"
+	                android:layout_marginLeft="50dp">
+	                
+	                <!-- 背景 -->	                
+	                <ImageView 
+	                    android:id="@+id/home_speak_background"		         	
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/home_speak_background"/>
+	                
+	                <!--progressbar  -->	
+	                <ProgressBar 
+	                    android:id="@+id/home_progress_speak"
+	                    android:indeterminateOnly="false"
+	                    android:layout_height="166dp"
+	                    android:layout_width="166dp"
+	                    android:progressDrawable="@drawable/home_progress_speak"
+	                    android:layout_marginTop="94dp"
+	                    android:layout_marginLeft="22dp"/> 
+	                                   
+			   		<!-- 口语图标 --> 
+	                <ImageView 
+	                    android:id="@+id/home_speak_icon"
+	                    android:layout_height="wrap_content"
+	                    android:layout_width="wrap_content"
+	                    android:background="@drawable/home_speak_icon"
+	                    android:layout_marginTop="117dp"
+	                    android:layout_centerHorizontal="true"/>	                
+	            </RelativeLayout>	
+	            
+	            
+	            <!-- 阅读模块的布局 -->
+	            <RelativeLayout 
+	                android:id="@+id/home_relative_read"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/home_relative_listen"
+	                android:layout_marginTop="30dp">
+	                
+	                <!-- 背景 -->	                
+	                <ImageView 	
+	                    android:id="@+id/home_read_background"	         	
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/home_read_background"/>
+	                
+	                <!--progressbar  -->	
+	                <ProgressBar 
+	                    android:id="@+id/home_progress_read"
+	                    android:indeterminateOnly="false"
+	                    android:layout_height="166dp"
+	                    android:layout_width="166dp"
+	                    android:progressDrawable="@drawable/home_progress_read"
+	                    android:layout_marginTop="92dp"
+	                    android:layout_marginLeft="21dp"/> 
+	                                   
+			   		<!-- 阅读图标 --> 
+	                <ImageView 
+	                    android:id="@+id/home_read_icon"
+	                    android:layout_height="wrap_content"
+	                    android:layout_width="wrap_content"
+	                    android:background="@drawable/home_read_icon"
+	                    android:layout_marginTop="117dp"
+	                    android:layout_centerHorizontal="true"/>	                
+	            </RelativeLayout>	        
+	    		
+	            
+	            <!-- 单词模块的布局 -->
+	            <RelativeLayout 
+	                android:id="@+id/home_relative_word"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/home_relative_speak"
+	                android:layout_alignLeft="@id/home_relative_speak"
+	                android:layout_marginTop="30dp">
+	                
+	                <!-- 背景 -->	                
+	                <ImageView 
+	                    android:id="@+id/home_word_background"		         	
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/home_word_background"/>
+	                
+	                <!--progressbar  -->	
+	                <ProgressBar 
+	                    android:id="@+id/home_progress_word"
+	                    android:indeterminateOnly="false"
+	                    android:layout_height="166dp"
+	                    android:layout_width="166dp"
+	                    android:progressDrawable="@drawable/home_progress_word"
+	                    android:layout_marginTop="94dp"
+	                    android:layout_marginLeft="21dp"/> 
+	                                   
+			   		<!-- 单词图标 --> 
+	                <ImageView 
+	                    android:id="@+id/home_word_icon"
+	                    android:layout_height="wrap_content"
+	                    android:layout_width="wrap_content"
+	                    android:background="@drawable/home_word_icon"
+	                    android:layout_marginTop="117dp"
+	                    android:layout_centerHorizontal="true"/>	                
+	            </RelativeLayout>	    
+	            
+	        </RelativeLayout>
+	        	        
+	    </LinearLayout>
+	</LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_courselist_unititem_ln"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal" 
+    android:background="@color/courselist_unititem_unclick">
+    
+	<TextView
+	    android:id="@+id/home_courselist_unititem_numtext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:textColor="@color/courselist_unititem_numtext"
+	    android:textSize="35sp"
+	    android:layout_marginLeft="75dp"/>
+	
+	<TextView 
+	    android:id="@+id/home_courselist_unititem_nametext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:textColor="@color/courselist_unititem_numtext"
+	    android:textSize="35sp"
+	    android:layout_marginLeft="75dp"/>
+	    
+</LinearLayout>

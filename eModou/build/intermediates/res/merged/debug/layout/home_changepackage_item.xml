@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@color/white" >
+    
+    <ImageView 
+        android:id="@+id/home_changepackage_item_icon"
+        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/home_changepackage_item_icondefault"/>
+    
+	<TextView 
+	    android:id="@+id/home_changepackage_item_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="学习包"
+	    android:textSize="30sp" 
+	    android:layout_toRightOf="@id/home_changepackage_item_icon"
+	    android:layout_marginLeft="50dp"
+	    android:layout_marginTop="10dp"/>
+	
+	<TextView 
+	    android:id="@+id/home_changepackage_item_available"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="完整版"
+	    android:textColor="@color/home_listen_qusresult_darktext"
+	    android:textSize="15sp"
+	    android:layout_toRightOf="@id/home_changepackage_item_name"
+	    android:layout_marginLeft="12dp" 
+	    android:layout_alignBottom="@id/home_changepackage_item_name"/>
+	
+	<TextView 
+	    android:id="@+id/home_changepackage_item_deadtime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="有效期至"
+	    android:textSize="20sp" 
+	    android:textColor="@color/home_listen_qusresult_darktext"
+	    android:layout_below="@id/home_changepackage_item_name"
+	    android:layout_alignLeft="@id/home_changepackage_item_name"
+	    android:layout_marginTop="20dp"/>
+	
+	<TextView 
+	    android:id="@+id/home_changepackage_item_price"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="价格"
+	    android:textSize="20sp" 
+	    android:textColor="@color/home_listen_qusresult_darktext"
+	    android:layout_below="@+id/home_changepackage_item_deadtime"
+	    android:layout_alignLeft="@id/home_changepackage_item_name"
+	    android:layout_marginTop="10dp"/>
+	
+	<ImageView 
+	    android:id="@+id/home_changepackage_item_buy"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/home_changepackage_item_buy_selector"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="30dp"/>
+	
+	<ImageView 
+	    android:id="@+id/home_changepackage_item_select"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/home_changepackage_item_select"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@id/home_changepackage_item_buy"
+	    android:layout_marginRight="30dp"
+	    android:visibility="gone"/>
+	
+	<ImageView 
+	    android:id="@+id/home_changepackage_item_unselect"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/home_changepackage_item_unselect"
+	    android:layout_centerVertical="true" 
+	    android:layout_toLeftOf="@id/home_changepackage_item_buy"
+	    android:layout_marginRight="30dp"/>
+	
+</RelativeLayout>
+

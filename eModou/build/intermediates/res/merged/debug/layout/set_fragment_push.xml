@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/set_fragment_push_rl" 
+    android:background="@color/set_fragment_bcg">
+    
+    <!-- 接受哪些推送通知 -->
+    <TextView 
+        android:id="@+id/set_fragment_push_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_fragment_push_text1"
+        android:textSize="25sp"
+        android:textColor="#7c7c7c"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"/>
+    
+    <!-- 作业发布 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_push_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/set_fragment_push_tv1"
+        android:layout_alignLeft="@id/set_fragment_push_tv1"
+        android:layout_marginTop="20dp">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_push_text2"
+	        android:textSize="23sp"
+	        android:textColor="#333333"
+	        android:layout_centerVertical="true"/>
+	    
+	    <com.emodou.extend.SwitchButton
+            android:id="@+id/set_fragment_push_switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true" />    
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/set_fragment_push_line"
+        android:layout_below="@id/set_fragment_push_rl1"/>
+    
+    <!-- 我的问题得到解答 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_push_rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/set_fragment_push_rl1"
+        android:layout_alignLeft="@id/set_fragment_push_tv1">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_push_text3"
+	        android:textSize="23sp"
+	        android:textColor="#333333"
+	        android:layout_centerVertical="true"/>
+	    
+	    <com.emodou.extend.SwitchButton
+            android:id="@+id/set_fragment_push_switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true" />	    
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/set_fragment_push_line"
+        android:layout_below="@id/set_fragment_push_rl2"/>
+    
+    <!-- 我的答疑被评为最佳答案 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_push_rl3"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/set_fragment_push_rl2"
+        android:layout_alignLeft="@id/set_fragment_push_tv1">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_push_text4"
+	        android:textSize="23sp"
+	        android:textColor="#333333"
+	        android:layout_centerVertical="true"/>
+	    
+	    <com.emodou.extend.SwitchButton
+            android:id="@+id/set_fragment_push_switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true" />    
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/set_fragment_push_line"
+        android:layout_below="@id/set_fragment_push_rl3"/>
+    
+    <!-- PK邀请 -->
+    <RelativeLayout 
+        android:id="@+id/set_fragment_push_rl4"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/set_fragment_push_rl3"
+        android:layout_alignLeft="@id/set_fragment_push_tv1">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_fragment_push_text5"
+	        android:textSize="23sp"
+	        android:textColor="#333333"
+	        android:layout_centerVertical="true"/>
+	    
+	    <com.emodou.extend.SwitchButton
+            android:id="@+id/set_fragment_push_switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_centerVertical="true" />    
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/set_fragment_push_line"
+        android:layout_below="@id/set_fragment_push_rl4"/>
+    
+	
+</RelativeLayout>

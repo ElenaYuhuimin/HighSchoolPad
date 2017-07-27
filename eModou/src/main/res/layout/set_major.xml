@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/set_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetActivity" 
+    android:background="@color/white">
+
+    <!-- 设置bar -->
+
+    <TextView
+        android:id="@+id/set_tvbar"
+        style="@style/actionbar_home"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/set_actionbar_main"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/set_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/set_tvbar"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/set_logout_selector" />
+
+    <!-- 左半部分列表布局 -->
+
+    <RelativeLayout
+        android:id="@+id/set_list"
+        android:layout_width="450dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp" >
+
+        <!-- 口语仅在wifi时可以打分 -->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:id="@+id/set_list_speak_rl">
+
+            <ImageView
+                android:id="@+id/set_list_speak_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_speak_icon" />
+
+            <TextView
+                android:id="@+id/set_list_speak_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_speak_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/set_list_speak_icon"/>
+
+            <com.emodou.extend.SwitchButton
+                android:id="@+id/set_list_wiperSwitch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp" 
+                android:layout_centerVertical="true"/>
+                
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"               
+                android:layout_alignLeft="@id/set_list_speak_text"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        
+        <!-- 仅在wifi时可以下载 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_download_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_speak_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_download_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_download_icon" />
+
+            <TextView
+                android:id="@+id/set_list_download_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_download_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_download_icon"/>
+
+            <com.emodou.extend.SwitchButton
+                android:id="@+id/set_list_wiperSwitch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true" />
+                
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_download_text"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+        
+        <!-- 推送消息设定 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_push_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_download_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_push_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_push_icon" />
+
+            <TextView
+                android:id="@+id/set_list_push_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_push_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_push_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_push_text"
+                android:layout_marginTop="10dp"/>
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+         
+        <!--字体大小设定  -->
+        <RelativeLayout 
+            android:id="@+id/set_list_font_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_push_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_font_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_font_icon" />
+
+            <TextView
+                android:id="@+id/set_list_font_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_font_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_font_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"/>
+            
+            <ImageView 
+                android:id="@+id/set_list_font_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+            
+            <TextView 
+                android:id="@+id/set_list_font_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中号"
+                android:textSize="21sp"
+                android:layout_toLeftOf="@id/set_list_font_arrow"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/set_list_text"/>          
+        </RelativeLayout>
+        
+        <!-- 更换手机号 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_mobile_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_font_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_mobile_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_mobile_icon" />
+
+            <TextView
+                android:id="@+id/set_list_mobile_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_mobile_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_mobile_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_mobile_text"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 修改密码 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_changepsd_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_mobile_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_changepsd_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_changepsd_icon" />
+
+            <TextView
+                android:id="@+id/set_list_changepsd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_changepsd_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_changepsd_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 关注微信 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_wechat_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_changepsd_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_wechat_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_wechat_icon" />
+
+            <TextView
+                android:id="@+id/set_list_wechat_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_wechat_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_wechat_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_wechat_text"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 常见问题 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_normalqus_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_wechat_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_normalqus_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_normalqus_icon" />
+
+            <TextView
+                android:id="@+id/set_list_normalqus_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_normalqus_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_normalqus_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_normalqus_text"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 问题反馈 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_feedback_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_normalqus_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_feedback_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_feedback_icon" />
+
+            <TextView
+                android:id="@+id/set_list_feedback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_feedback_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_feedback_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_feedback_text"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 关于我们 -->
+        <RelativeLayout 
+            android:id="@+id/set_list_aboutus_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_feedback_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_aboutus_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_aboutus_icon" />
+
+            <TextView
+                android:id="@+id/set_list_aboutus_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_aboutus_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_aboutus_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_aboutus_text"
+                android:layout_marginTop="10dp"/>
+               
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+        </RelativeLayout>
+        
+        <!-- 检查更新 -->        
+        <RelativeLayout 
+            android:id="@+id/set_list_update_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:layout_below="@id/set_list_aboutus_rl">
+            
+            <ImageView
+                android:id="@+id/set_list_update_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_list_update_icon" />
+
+            <TextView
+                android:id="@+id/set_list_update_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_list_update_text"
+                android:textColor="@color/set_list_text" 
+                android:textSize="23sp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/set_list_update_icon"/>
+            
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d7d7d7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/set_list_update_text"
+                android:layout_marginTop="10dp"/>
+            
+            <ImageView 
+                android:id="@+id/set_list_update_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/set_list_update_prompt"
+                android:layout_centerVertical="true"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/set_list_update_prompt"
+                android:layout_marginRight="15dp"
+                android:text="有更新"
+                android:textSize="21sp"
+                android:textColor="@color/set_list_text"
+                android:layout_centerVertical="true"/>           
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 两个面板之间的线 -->
+
+    <View
+        android:id="@+id/set_line"
+        android:layout_width="3dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/set_list"
+        android:background="#c9d2d6" >
+    </View>
+
+    <!-- 右半部分面板 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/set_line"
+        android:background="@color/white" >
+        
+        <FrameLayout 
+            android:id="@+id/set_major_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

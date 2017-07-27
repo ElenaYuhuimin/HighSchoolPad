@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/word_bcg">
+    
+    <RelativeLayout 
+        android:id="@+id/word_test_choose_fragment_titleRl"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="100dp" 
+        android:layout_marginRight="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+        
+        <TextView 
+	        android:id="@+id/word_test_choose_fragment_titleTv"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="happy"
+	        android:maxHeight="50dp"
+	        android:minHeight="46dp"
+	        android:textSize="40sp"
+	        android:ellipsize="end"/>
+    
+	    <ImageView 
+	        android:id="@+id/word_test_choose_fragment_voiceImv"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:background="@drawable/word_preview_laba_selector"
+	        android:layout_toRightOf="@id/word_test_choose_fragment_titleTv"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="60dp" 
+        android:layout_marginRight="60dp" 
+        android:layout_below="@id/word_test_choose_fragment_titleRl"
+        android:background="@drawable/word_presec_sentence_layer"
+        android:layout_marginTop="40dp" 
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_choose_fragment_ARl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="110dp"
+            android:background="@drawable/word_test_choose_fragment_selector">
+            
+            <TextView 
+                android:id="@+id/word_test_choose_fragment_Aa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textSize="22sp" 
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            
+            <TextView
+                android:id="@+id/word_test_choose_fragment_AmeanTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:singleLine="false"
+                android:text="mean"
+                android:textSize="22sp"
+                android:layout_alignTop="@id/word_test_choose_fragment_Aa"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_toRightOf="@id/word_test_choose_fragment_Aa"/>
+            
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Aright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_rightimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/> 
+                
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Awrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_wrongimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/>
+            
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="@color/home_listen_qus_item_darkline"/>
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_choose_fragment_BRl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="122dp"
+            android:background="@drawable/word_test_choose_fragment_selector">
+            
+            <TextView 
+                android:id="@+id/word_test_choose_fragment_Bb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textSize="22sp" 
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            
+            <TextView
+                android:id="@+id/word_test_choose_fragment_BmeanTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:singleLine="false"
+                android:text="mean"
+                android:textSize="22sp"
+                android:layout_alignTop="@id/word_test_choose_fragment_Bb"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_toRightOf="@id/word_test_choose_fragment_Bb"/>
+            
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_rightimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/> 
+                
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Bwrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_wrongimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/>
+            
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="@color/home_listen_qus_item_darkline"/>
+        
+        
+        <RelativeLayout 
+            android:id="@+id/word_test_choose_fragment_CRl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="122dp"
+            android:background="@drawable/word_test_choose_fragment_selector">
+            
+            <TextView 
+                android:id="@+id/word_test_choose_fragment_Cc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textSize="22sp" 
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            
+            <TextView
+                android:id="@+id/word_test_choose_fragment_CmeanTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:singleLine="false"
+                android:text="mean"
+                android:textSize="22sp"
+                android:layout_alignTop="@id/word_test_choose_fragment_Cc"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_toRightOf="@id/word_test_choose_fragment_Cc"/>
+            
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Cright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_rightimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/> 
+                
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Cwrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_wrongimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/>
+            
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="@color/home_listen_qus_item_darkline"/>
+        
+        
+         <RelativeLayout 
+            android:id="@+id/word_test_choose_fragment_DRl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minHeight="118dp"
+            android:background="@drawable/word_test_choose_fragment_selector"
+            android:layout_gravity="bottom">
+            
+            <TextView 
+                android:id="@+id/word_test_choose_fragment_Dd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textSize="22sp" 
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            
+            <TextView
+                android:id="@+id/word_test_choose_fragment_DmeanTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:singleLine="false"
+                android:text="mean"
+                android:textSize="22sp"
+                android:layout_alignTop="@id/word_test_choose_fragment_Dd"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_toRightOf="@id/word_test_choose_fragment_Dd"/>
+            
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Dright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_rightimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/> 
+                
+            <ImageView 
+                android:id="@+id/word_test_choose_fragment_Dwrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" 
+                android:background="@drawable/word_test_choose_fragment_wrongimv"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"/>
+            
+            
+        </RelativeLayout>
+        
+
+    </LinearLayout>
+    
+    
+    <RelativeLayout 
+        android:id="@+id/word_test_activity_barRl"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:layout_toLeftOf="@id/word_test_activity_buttonLl"
+        android:layout_marginLeft="60dp" 
+        android:layout_marginRight="60dp">
+        
+        <TextView 
+            android:id="@+id/word_test_activity_couseCount" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程：3|总单词：24"
+            android:textSize="20sp" 
+            android:layout_marginLeft="30dp" 
+            android:layout_marginTop="10dp"/>
+        
+        <TextView 
+            android:id="@+id/word_test_activity_leftCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|剩余单词:10"
+            android:textSize="20sp" 
+            android:layout_toRightOf="@id/word_test_activity_couseCount"
+            android:layout_alignTop="@id/word_test_activity_couseCount"/>
+        
+        <TextView 
+            android:id="@+id/word_test_activity_progressTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进度  0%"
+            android:textSize="20sp"
+            android:layout_below="@id/word_test_activity_couseCount"
+            android:layout_alignLeft="@id/word_test_activity_couseCount"
+            android:layout_marginTop="10dp"/>
+        
+        <ProgressBar 
+            android:id="@+id/word_test_activity_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent" 
+            android:layout_height="10dp" 
+            android:layout_toRightOf="@+id/word_test_activity_progressTv"
+            android:progressDrawable="@drawable/actionbar_wordpre_progressbcg_shape"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="80dp"
+            android:layout_below="@id/word_test_activity_couseCount"
+            android:layout_marginTop="18dp"
+            android:progress="0"
+            android:max="100"/>
+    </RelativeLayout>
+    
+
+</RelativeLayout>

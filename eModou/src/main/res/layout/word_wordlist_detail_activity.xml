@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/set_fragment_bcg">
+    
+    <RelativeLayout 
+        android:id="@+id/word_detial_front"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+   		android:layout_alignParentLeft="true">
+        
+        <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/word_prethd_front_selector"
+	        android:layout_centerVertical="true" 
+	        android:layout_marginLeft="10dp"
+	        android:duplicateParentState="true"/>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/word_detail_next"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+   		android:layout_alignParentRight="true">
+        
+        <ImageView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:background="@drawable/word_prethd_next_selector"
+	       android:layout_centerVertical="true"
+	       android:duplicateParentState="true"
+	       android:layout_marginRight="10dp"
+	       android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    
+    
+	<fragment
+	    android:id="@+id/word_detail_content_fragment"
+	    android:name="com.emodou.home.WordwDetailFragment"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_toRightOf="@id/word_detial_front"
+	    android:layout_toLeftOf="@id/word_detail_next"/>
+</RelativeLayout>

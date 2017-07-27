@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "/Users/maixin/emodouSvnVersion/gaozhong/holocircle/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "/Users/maixin/emodouSvnVersion/gaozhong/holocircle/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 62,
+                        "endOffset": 113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 1027
+                },
+                "from": {
+                    "file": "/Users/maixin/emodouSvnVersion/gaozhong/holocircle/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 542,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 1027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1032,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1517
+                },
+                "from": {
+                    "file": "/Users/maixin/emodouSvnVersion/gaozhong/holocircle/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1032,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1517
+                    }
+                }
+            }
+        ]
+    }
+]

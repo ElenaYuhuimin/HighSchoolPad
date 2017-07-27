@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/ptr_pulltorefresh_arrow.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/pullToRefreshListView/unspecified/res/drawable-hdpi-v4/ptr_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/exploded-aar/eModou/viewpagerindicator/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/maixin/eclipse/eModou/eModou/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/maixin/eclipse/eModou/eModou/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

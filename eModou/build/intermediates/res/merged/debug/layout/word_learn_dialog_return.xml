@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/word_learn_dialog_return_shape">
+    
+    <RelativeLayout 
+        android:id="@+id/word_learn_dialog_return_titleRl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"  >
+        
+        <TextView 
+            android:id="@+id/word_learn_dialog_return_title"
+            android:text="@string/word_learn_dialog_return_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" 
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp" 
+        android:background="@color/word_line"
+        android:layout_below="@id/word_learn_dialog_return_titleRl"/>"
+    
+    
+    <LinearLayout 
+        android:id="@+id/word_learn_dialog_return_stateRl"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:layout_marginLeft="30dp" 
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/word_learn_dialog_return_titleRl"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/word_learn_dialog_return_unfamiliarTv"
+            android:text="陌生\n(12)"
+            android:layout_width="100dp" 
+            android:layout_height="70dp" 
+            android:textSize="24sp" 
+            android:textColor="@color/white"
+            android:background="@drawable/word_wordlist_unfamiliar_shape"
+            android:gravity="center"/>
+        
+         <TextView 
+            android:id="@+id/word_learn_dialog_return_vagueTv"
+            android:text="模糊\n(12)"
+            android:layout_width="100dp" 
+            android:layout_height="70dp" 
+            android:textSize="24sp" 
+            android:textColor="@color/white"
+            android:background="@drawable/word_wordlist_vague_shape"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"/>
+         
+         <TextView 
+            android:id="@+id/word_learn_dialog_return_familiarTv"
+            android:text="熟悉\n(12)"
+            android:layout_width="100dp" 
+            android:layout_height="70dp" 
+            android:textSize="24sp" 
+            android:textColor="@color/white"
+            android:background="@drawable/word_wordlist_familiar_shape"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"/>
+         
+         <TextView 
+            android:id="@+id/word_learn_dialog_return_notLearnTv"
+            android:text="未学\n(12)"
+            android:layout_width="100dp" 
+            android:layout_height="70dp" 
+            android:textSize="24sp" 
+            android:textColor="@color/white"
+            android:background="@drawable/word_wordlist_notlearn_shape"
+            android:gravity="center"
+            android:layout_marginLeft="14dp"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/word_learn_dialog_return_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本次学习用时2分35秒"
+        android:layout_below="@id/word_learn_dialog_return_stateRl"
+        android:layout_marginTop="24dp" 
+        android:layout_centerHorizontal="true" 
+        android:textSize="20sp" 
+        android:textColor="@color/home_listen_qusresult_darktext"/>
+    
+    <LinearLayout 
+        android:layout_height="100dp"
+        android:layout_width="fill_parent" 
+        android:layout_below="@id/word_learn_dialog_return_time"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        
+        <ImageView 
+            android:id="@+id/word_learn_dialog_return_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word_learn_dialog_return_exit_selector"
+            android:layout_gravity="center_vertical"/>
+        
+        <ImageView 
+            android:id="@+id/word_learn_dialog_return_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word_learn_dialog_return_continue_selector"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

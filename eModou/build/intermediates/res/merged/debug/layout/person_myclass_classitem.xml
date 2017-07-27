@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/white">
+    
+    <ImageView
+        android:id="@+id/person_myclass_classitem_icon" 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_changepackage_item_icondefault"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"/>
+    
+    <TextView 
+        android:id="@+id/person_myclass_classitem_crname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/person_myclass_classitem_icon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="班级名称"
+        android:textColor="@color/person_myclass_classitem_darkgreen"/>
+    
+    <TextView 
+        android:id="@+id/person_myclass_classitem_crgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(年级)"
+        android:textSize="24sp" 
+        android:layout_marginTop="20dp" 
+        android:layout_toRightOf="@id/person_myclass_classitem_crname"
+        android:textColor="@color/person_myclass_classitem_darkgreen"/>
+    
+    <TextView 
+        android:id="@+id/person_myclass_classitem_schoolname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_myclass_classitem_crname"
+        android:layout_alignLeft="@id/person_myclass_classitem_crname"
+        android:textColor="@color/home_listen_qusresult_darktext"
+        android:text="学校名称"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    
+   
+    
+    <TextView 
+        android:id="@+id/person_myclass_classitem_snumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" 
+        android:layout_marginTop="20dp" 
+        android:text="学生数量 ： 3"
+        android:layout_toRightOf="@id/person_myclass_classitem_schoolname"
+        android:layout_marginLeft="60dp"
+        android:visibility="gone"/>
+    
+     <TextView 
+        android:id="@+id/person_myclass_classitem_teachername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="教师姓名"
+        android:layout_toRightOf="@id/person_myclass_classitem_snumber"
+        android:layout_marginLeft="60dp"
+        android:visibility="gone"/>
+    
+    
+    <TextView 
+        android:id="@+id/person_myclass_classitem_packname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="包名字"
+        android:textSize="20sp"
+        android:layout_below="@id/person_myclass_classitem_schoolname"
+        android:layout_marginTop="20dp" 
+        android:layout_toRightOf="@id/person_myclass_classitem_crgrade"
+        android:layout_marginLeft="60dp"
+        android:visibility="gone"/>
+    
+    <!-- 撤销申请 -->   	
+   	<Button  
+      android:id="@+id/person_myclass_cancelBtn"
+      android:layout_width="120dp"
+      android:layout_height="40dp"
+      android:text="@string/person_myclass_detail_cancel"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:background="@drawable/set_fragment_mobile_getpin_selector"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:layout_marginRight="40dp"/>
+      
+
+</RelativeLayout>
