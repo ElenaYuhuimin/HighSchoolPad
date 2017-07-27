@@ -3,5 +3,5 @@
 具体功能界面如下：
 
 ##整体预览（首页、班级、个人和设置功能）
-![整体预览图](https://github.com/ElenaYuhuimin/HighSchoolPad/blob/master/RecordGif/整体界面.gif?raw=true)
+<img width="666" height="400" src="https://github.com/ElenaYuhuimin/HighSchoolPad/blob/master/RecordGif/整体界面.gif?raw=true"/>
 
