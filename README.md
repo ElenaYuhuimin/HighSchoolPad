@@ -1,0 +1,3 @@
+# HighSchoolPad
+北师大高中英语Pad的Android版
+具体界面功能请查看项目description
